@@ -16,8 +16,8 @@
    - Build a custom, mobile-first 1-page landing page preview with a direct "Quote on WhatsApp" button, trust badges, and their real service breakdown.
    - Send a low-friction, personalized WhatsApp/email showing the preview with no upfront obligation.
 
-3. **Active Contractor Demos & Pipeline (14 Verified Leads Across 5 Provinces):**
-   - Deep search audit verified 100% of these 14 active contractors have **zero website, no domain, and no directory presence**:
+3. **Active Contractor Demos & Pipeline (20 Verified Leads Across 5 Provinces):**
+   - Deep search audit verified 100% of these 20 active contractors have **zero website, no domain, and no directory presence**:
      1. **Murendeni Ratombo** (`076 284 5600`) — Ratombo Construction (Pretoria / Centurion, GP — NHBRC Luxury Estates).
      2. **Lethabo Rapanyane** (`078 948 1786`) — Raboshabane Trading (Johannesburg, GP — Double-Storey Masonry).
      3. **Maiketso Maiketso** (`063 255 0626`) — Molise Construction (Centurion, GP — Tiling & Building).
@@ -32,7 +32,13 @@
      12. **Sibusiso Maramb** (`064 961 6669`) — BM Aluminum & Steel (King William's Town, EC — Windows & Gates).
      13. **Samukeliso Manana** (`084 273 4383`) — SKWE-BUILD Construction (Ekangala, GP — Torch-On Waterproofing).
      14. **Lucky Nkuna** (`063 420 1160`) — Lucky Nkuna Plastering (Johannesburg, GP — Rhinolite & Gamazine).
-   - **Ready Deployment Packages:** All 14 sites packaged into clean root-level `.zip` archives ready for drag-and-drop hosting on Tiiny.host / Surge / Netlify.
+     15. **Freeman Sifiso Ndimande** (`072 074 0051`) — Aqua Masters Plumbing Solution (Umlazi / Durban, KZN — Copper Reticulation & Cisterns).
+     16. **Cpheh Mvelase** (`081 660 9750`) — Cpheh Mvelase Ceilings & Bulkheads (Adams Mission / Durban, KZN — Rhinoboard & Bulkheads).
+     17. **Casper Mk Ndlovu** (`081 430 1227`) — Mlingo Projects & Paving (Durban, KZN — Tar Surfacing & Interlocking Paving).
+     18. **Blessed Mhirimo** (`084 546 3534`) — Blessed Mhirimo Campus Building (East London, EC — Turnkey House Building & Roofing).
+     19. **Senalorh Mthethwa** (`072 538 8371`) — Senalorh Mthethwa Electrical (Durban, KZN — DB Boards & House Conduit Wiring).
+     20. **Vuyolwethu Hlazo** (`073 387 2140`) — Vuyolwethu Hlazo Fencing (Mthatha / Engcobo, EC — Diamond Mesh & Treated Timber Fencing).
+   - **Ready Deployment Packages:** All 20 sites packaged into clean root-level `.zip` archives ready for drag-and-drop hosting on Tiiny.host / Surge / Netlify.
    - **Vault Status:** Fully synced inside `contractor-crm-vault/` (Pipeline Tracker, Leads, Demos Index, Home Dashboard, Playbooks).
 
 4. **Strict 4-Pillar Jev Lead Qualification Protocol:**

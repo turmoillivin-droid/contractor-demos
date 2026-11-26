@@ -14,11 +14,12 @@ Welcome to your central operating workspace. This vault tracks all your contract
 | Section | Description | Link |
 | :--- | :--- | :--- |
 | **📊 Pipeline** | Track active prospects from discovery to paid | [[Pipeline Tracker]] |
-| **🌐 Demos & Hub** | 14 Live contractor demos with authentic Facebook galleries | [[Website Demos Index]] |
+| **🌐 Demos & Hub** | 20 Live contractor demos with authentic Facebook galleries | [[Website Demos Index]] |
 | **🎯 Jev Vetting Protocol** | 4-Pillar strict qualification & cash-flow scoring | [[Strict Lead Qualification & Jev Scoring Protocol]] |
 | **🧠 TypeSafe AI Reference** | System 1 decision engine guidance & patterns | [[TypeSafe AI (Jev) Skill Reference]] |
 | **🎯 Hunting Grounds** | 1.2M+ South African contractors & builders | [[Contractor Hunting Grounds (1.2M+)]] |
 | **📢 Distribution Hubs** | 24 Gauteng homeowner groups (1.5M+ reach) | [[Gauteng Homeowner Groups (1.5M+)]] |
+| **🎨 Flyer Blueprints** | 6 Tested group flyer templates & anti-spam SOP | [[Community Group Flyer Templates & Distribution Playbook]] |
 | **🇿🇦 National Rolodex** | 9-province directory (5.4M+ reach) | [[National 9-Province Directory (5.4M+)]] |
 | **💬 Outreach Scripts** | Tested copy-paste WhatsApp pitches | [[WhatsApp Outreach Scripts]] |
 | **💰 Pricing & Menu** | A la carte & retainer package pricing | [[Pricing & Service Menu]] |
@@ -38,7 +39,7 @@ Welcome to your central operating workspace. This vault tracks all your contract
 
 ---
 
-## 🔥 Current Active Pipeline (14 Verified Leads)
+## 🔥 Current Active Pipeline (20 Verified Leads)
 
 | Contractor | Trade | Province | Status | Note |
 | :--- | :--- | :--- | :--- | :--- |
@@ -56,6 +57,12 @@ Welcome to your central operating workspace. This vault tracks all your contract
 | **Sibusiso Maramb** | Aluminium Windows & Steel Gates | Eastern Cape | `#status/ready-to-pitch` | [[Sibusiso - BM Aluminum]] |
 | **Samukeliso Manana** | Torch-On Waterproofing & Building | Gauteng | `#status/ready-to-pitch` | [[Samukeliso - SKWE-BUILD]] |
 | **Lucky Nkuna** | Rhinolite Skimming & Gamazine | Gauteng | `#status/ready-to-pitch` | [[Lucky - Lucky Nkuna Plastering]] |
+| **Freeman Sifiso Ndimande** | Copper Plumbing & Concealed Cisterns | KwaZulu-Natal | `#status/ready-to-pitch` | [[Freeman - Aqua Masters Plumbing]] |
+| **Cpheh Mvelase** | Rhinoboard Ceilings & Bulkheads | KwaZulu-Natal | `#status/ready-to-pitch` | [[Cpheh - Cpheh Ceilings]] |
+| **Casper Mk Ndlovu** | Tar Surfacing & Interlocking Paving | KwaZulu-Natal | `#status/ready-to-pitch` | [[Casper - Mlingo Paving]] |
+| **Blessed Mhirimo** | Turnkey House Building & Roofing | Eastern Cape | `#status/ready-to-pitch` | [[Blessed - Blessed Mhirimo Building]] |
+| **Senalorh Mthethwa** | DB Boards & House Conduit Wiring | KwaZulu-Natal | `#status/ready-to-pitch` | [[Senalorh - Senalorh Electrical]] |
+| **Vuyolwethu Hlazo** | Diamond Mesh & Yard Fencing | Eastern Cape | `#status/ready-to-pitch` | [[Vuyolwethu - Vuyolwethu Fencing]] |
 
 ---
 *Created for Antigravity & Obsidian integration.*

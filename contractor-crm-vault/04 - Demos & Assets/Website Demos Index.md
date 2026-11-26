@@ -23,14 +23,20 @@ Here is the index of all generated mobile contractor landing page previews and r
 | **BM Aluminum & Steel Fabrications** | Sibusiso | Aluminium Windows & Steel Gates | `bm-aluminum.zip` (1.2 MB) | `demo-bm-aluminum/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-bm-aluminum/) |
 | **SKWE-BUILD Construction & Roofing** | Samukeliso | Torch-On Waterproofing & Alterations | `skwe-build.zip` (2.2 MB) | `demo-skwe-build/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-skwe-build/) |
 | **Lucky Nkuna Building & Plastering** | Lucky | Rhinolite Skimming & Gamazine | `lucky-nkuna.zip` (323 KB) | `demo-lucky-nkuna/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-lucky-nkuna/) |
+| **Aqua Masters Plumbing Solution** | Freeman | Copper Plumbing & Cisterns | `aquamasters-plumbing.zip` (976 KB) | `demo-aquamasters-plumbing/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-aquamasters-plumbing/) |
+| **Cpheh Mvelase Ceilings & Bulkheads** | Cpheh | Rhinoboard & Bulkheads | `cpheh-ceilings.zip` (306 KB) | `demo-cpheh-ceilings/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-cpheh-ceilings/) |
+| **Mlingo Projects & Paving** | Casper | Tar Surfacing & Interlocking Paving | `mlingo-paving.zip` (420 KB) | `demo-mlingo-paving/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-mlingo-paving/) |
+| **Blessed Mhirimo Campus Building** | Blessed | Turnkey House Construction | `blessed-building.zip` (487 KB) | `demo-blessed-building/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-blessed-building/) |
+| **Senalorh Mthethwa Electrical** | Senalorh | DB Boards & House Wiring | `senalorh-electrical.zip` (259 KB) | `demo-senalorh-electrical/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-senalorh-electrical/) |
+| **Vuyolwethu Hlazo Fencing** | Vuyolwethu | Diamond Mesh & Pole Fencing | `vuyolwethu-fencing.zip` (604 KB) | `demo-vuyolwethu-fencing/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-vuyolwethu-fencing/) |
 
 ---
 
 ## 📸 Authentic Facebook Gallery Guarantee
-100% of generic placeholder stock photos (Unsplash) have been replaced across all 14 contractor websites. Every site now serves authentic high-resolution jobsite photos downloaded directly from each contractor's Facebook page/posts:
+100% of generic placeholder stock photos (Unsplash) have been replaced across all 20 contractor websites. Every site now serves authentic high-resolution jobsite photos downloaded directly from each contractor's Facebook page/posts:
 - **Zero Token Expiry:** All photos are hosted locally inside `images/` within each website repository.
 - **Unique Proof of Craft:** Drone aerial views, concrete rib-and-block slabs, steel gates, JoJo water tanks, DB board chasing, fitted designer kitchens, and laser-leveled porcelain floor tiling.
-- **Instant Deploy Packages:** All 14 `.zip` archives at workspace root bundle both `index.html` and the full `images/` folder ready for drag-and-drop hosting on Tiiny.host, Surge, or Netlify.
+- **Instant Deploy Packages:** All 20 `.zip` archives at workspace root bundle both `index.html` and the full `images/` folder ready for drag-and-drop hosting on Tiiny.host, Surge, or Netlify.
 
 ---
 

@@ -38,6 +38,12 @@ SORT file.name ASC
 - [ ] [[Sibusiso - BM Aluminum]] — Aluminium Windows & Steel Gates (King William's Town, EC) • `064 961 6669`
 - [ ] [[Samukeliso - SKWE-BUILD]] — Torch-On Waterproofing & Building (Ekangala, GP) • `084 273 4383`
 - [ ] [[Lucky - Lucky Nkuna Plastering]] — Rhinolite Skimming & Gamazine (Johannesburg, GP) • `063 420 1160`
+- [ ] [[Freeman - Aqua Masters Plumbing]] — Copper Plumbing & Cisterns (Durban, KZN) • `072 074 0051`
+- [ ] [[Cpheh - Cpheh Ceilings]] — Rhinoboard Ceilings & Bulkheads (Durban, KZN) • `081 660 9750`
+- [ ] [[Casper - Mlingo Paving]] — Tar Surfacing & Brick Paving (Durban, KZN) • `081 430 1227`
+- [ ] [[Blessed - Blessed Mhirimo Building]] — Turnkey House Building (East London, EC) • `084 546 3534`
+- [ ] [[Senalorh - Senalorh Electrical]] — DB Boards & Conduit Wiring (Durban, KZN) • `072 538 8371`
+- [ ] [[Vuyolwethu - Vuyolwethu Fencing]] — Diamond Mesh & Yard Fencing (Mthatha, EC) • `073 387 2140`
 
 ---
 
