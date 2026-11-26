@@ -16,19 +16,44 @@
    - Build a custom, mobile-first 1-page landing page preview with a direct "Quote on WhatsApp" button, trust badges, and their real service breakdown.
    - Send a low-friction, personalized WhatsApp/email showing the preview with no upfront obligation.
 
-3. **Active Contractor Demos & Pipeline (7 Verified Leads):**
-   - Deep search audit verified 100% of these 7 active contractors have **zero website, no domain, and no directory presence**:
-     1. **Murendeni Ratombo** (`076 284 5600`) — Ratombo Construction (Pretoria / Centurion, NHBRC Luxury Estates).
-     2. **Lethabo Rapanyane** (`078 948 1786`) — Raboshabane Trading (Johannesburg, Double-Storey Masonry).
-     3. **Maiketso Maiketso** (`063 255 0626`) — Molise Construction (Centurion, Tiling & Building).
-     4. **Bigboy Chinhema** (`065 624 7288`) — B.C Gutters & Steel (East Rand, Gutters & Carports).
-     5. **M&M Projects** (`064 845 4885`) — M&M Developments (Pretoria, Structural & Plumbing).
-     6. **Brian Simanyandi** (`069 422 5882`) — Simanyandi Tiling (East London, Porcelain Flooring).
-     7. **Mandla Sky Zulu** (`084 049 0448`) — Nozaphi Construction (Durban/KZN, 3D Plans & Turnkey).
-   - **Ready Deployment Packages:** All 7 sites packaged into clean root-level `.zip` archives (`ratombo-construction.zip`, `raboshabane-construction.zip`, etc.) ready for drag-and-drop hosting on Tiiny.host / Surge / Netlify.
-   - **Vault Status:** Fully synced inside `contractor-crm-vault/` (Pipeline Tracker, Leads, Demos Index, Home Dashboard).
+3. **Active Contractor Demos & Pipeline (14 Verified Leads Across 5 Provinces):**
+   - Deep search audit verified 100% of these 14 active contractors have **zero website, no domain, and no directory presence**:
+     1. **Murendeni Ratombo** (`076 284 5600`) — Ratombo Construction (Pretoria / Centurion, GP — NHBRC Luxury Estates).
+     2. **Lethabo Rapanyane** (`078 948 1786`) — Raboshabane Trading (Johannesburg, GP — Double-Storey Masonry).
+     3. **Maiketso Maiketso** (`063 255 0626`) — Molise Construction (Centurion, GP — Tiling & Building).
+     4. **Bigboy Chinhema** (`065 624 7288`) — B.C Gutters & Steel (East Rand, GP — Gutters & Carports).
+     5. **M&M Projects** (`064 845 4885`) — M&M Developments (Pretoria, GP — Structural & Plumbing).
+     6. **Brian Simanyandi** (`069 422 5882`) — Simanyandi Tiling (East London, EC — Porcelain Flooring).
+     7. **Mandla Sky Zulu** (`084 049 0448`) — Nozaphi Construction (Durban, KZN — 3D Plans & Turnkey).
+     8. **Chenge Methusi** (`079 859 9613`) — Mchenge Electrical & Painting (Mount Frere, EC — DB Boards & Wiring).
+     9. **Tsupha Thala** (`073 172 1468`) — Bafokeng Plumbing Maintenance (Rustenburg, NW — JoJo Tanks & Plumbing).
+     10. **RoofGlow Team** (`062 385 2941`) — RoofGlow Property Care (Cape Town, WC — Roof Pressure Washing & UV Coating).
+     11. **Thol'nhlanhla Maduna** (`083 631 2417`) — Maduna Built Ins (Durban, KZN — Fitted Kitchens & Wardrobes).
+     12. **Sibusiso Maramb** (`064 961 6669`) — BM Aluminum & Steel (King William's Town, EC — Windows & Gates).
+     13. **Samukeliso Manana** (`084 273 4383`) — SKWE-BUILD Construction (Ekangala, GP — Torch-On Waterproofing).
+     14. **Lucky Nkuna** (`063 420 1160`) — Lucky Nkuna Plastering (Johannesburg, GP — Rhinolite & Gamazine).
+   - **Ready Deployment Packages:** All 14 sites packaged into clean root-level `.zip` archives ready for drag-and-drop hosting on Tiiny.host / Surge / Netlify.
+   - **Vault Status:** Fully synced inside `contractor-crm-vault/` (Pipeline Tracker, Leads, Demos Index, Home Dashboard, Playbooks).
 
-4. **Product / Tool Roadmap & Assets:**
+4. **Strict 4-Pillar Jev Lead Qualification Protocol:**
+   - **Pillar 1: Strict No-Website Verification (Zero False Positives):**
+     - FB Intro: "Website" field must be blank (or only social link) + free email (@gmail/@yahoo). Custom domain email (`@company.co.za`) = auto-reject.
+     - Google SERP Page 1: Search `"Business Name" + City`. Must show 0 owned `.co.za` or `.com` domain on Page 1.
+   - **Pillar 2: Social-Proof Rich & High Inbound Intent:**
+     - Pinned service menu, price list, or active homeowner comments asking *"How much?"*, *"Please inbox"*, *"Do you work in [Suburb]?"*.
+     - Or Google Business Profile (Maps pin) with 3+ reviews but NO website button.
+   - **Pillar 3: Cash-Flow Signals (Must Have 2+ Required):**
+     - Sign-written fleet (bakkies, trucks, trailers).
+     - Uniformed crew (2+) / scaffolding / industrial machinery.
+     - Modern architectural / residential estate project markers.
+     - Facebook page longevity > 12 months with steady multi-season posts.
+   - **Pillar 4: Demo-Ready Brand Assets:**
+     - Clean graphic logo or company badge (no blurry selfies or generic clipart).
+     - 3–5 bright, daytime, wide-angle photos of completed work (no messy rubble/trenches).
+     - Owner's first name identified for personal WhatsApp outreach.
+   - **Automated Evaluator:** Script at `.agents/skills/contractor-lead-engine/scripts/jev_contractor_evaluator.py`.
+
+5. **Product / Tool Roadmap & Assets:**
    - **Vetted Group Rolodex (1.5M+ Members):** Compiled in `docs/gauteng_facebook_groups_rolodex.md` covering 24 top active public groups in Centurion, Pretoria East, Sandton/Bryanston, Randburg, Midrand, and Edenvale/Bedfordview.
    - **Service & Pricing Menu:** Problem-to-price model ranging from R500 (flyers) to R1,500-R2,500 (1-page mobile site + Google Business Profile) and R1,200-R1,800/mo (done-for-you group posting retainer).
    - **Multi-Platform Video Engine (TikTok, IG Reels, YouTube Shorts):**

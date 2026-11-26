@@ -19,9 +19,47 @@ This skill provides the end-to-end operational runbook for acquiring local trade
 
 ---
 
-## 1. Candidate Prospecting & Vetting Across All 9 Provinces
+## 1. Candidate Prospecting, Vetting & Jev Scoring Protocol
 
-Target Facebook trade and local business groups in any of South Africa's 9 provinces. Use the national directory: [references/national_provinces_facebook_rolodex.md](./references/national_provinces_facebook_rolodex.md).
+Target Facebook trade and local business groups in any of South Africa's 9 provinces using the national directory: [references/national_provinces_facebook_rolodex.md](./references/national_provinces_facebook_rolodex.md) and [references/contractor_hunting_grounds_rolodex.md](./references/contractor_hunting_grounds_rolodex.md).
+
+Before building any demo, every contractor must pass the **4-Pillar Jev Qualification Protocol** ([references/strict_qualification_and_jev_scoring.md](./references/strict_qualification_and_jev_scoring.md)):
+
+### The 4 Mandatory Qualification Checks:
+1. **Strict "No Website" Audit (Zero False Positives):**
+   - **Facebook:** Website field empty (or IG/TikTok only), free email provider (`@gmail.com` / `@yahoo.com`). Custom domain email = instant disqualification.
+   - **Google Page 1:** Search `"Business Name" + City`. Must show NO owned `.co.za` or `.com` domain on Page 1.
+2. **Social-Proof Rich & High Inbound Intent:**
+   - Pinned service menu, price list, or active homeowner comments asking *"How much?"*, *"Please inbox"*, *"Do you work in [Suburb]?"*.
+   - Or Google Maps listing with 3+ reviews but no website button.
+3. **Cash-Flow Qualifiers (Must Have 2+ Signals):**
+   - Sign-written fleet/bakkies/trailers on site.
+   - Visible uniformed crew (2+) / scaffolding / industrial equipment.
+   - Affluent suburb / residential security estate project tags.
+   - Page age > 12 months with multi-season posting history.
+4. **Demo-Ready Brand Assets:**
+   - Clean graphic logo / badge (no blurry selfies or generic clipart).
+   - 3–5 bright, daytime, wide-angle photos of completed work (no messy rubble or loose pipes).
+   - Owner's first name identified for personal outreach.
+
+### Fast Evaluation with Jev Classifier:
+Run the bundled scoring tool before generating a site:
+```bash
+python3 .agents/skills/contractor-lead-engine/scripts/jev_contractor_evaluator.py \
+  --name "Raboshabane Trading" \
+  --city "Johannesburg" \
+  --fb-website-empty true \
+  --free-email true \
+  --google-domain-found false \
+  --pinned-menu true \
+  --inbound-comments 5 \
+  --fleet true \
+  --crew true \
+  --luxury-suburb true \
+  --page-months 24 \
+  --clean-logo true \
+  --hero-photos 5
+```
 
 ### Provincial Demand Patterns:
 - **Gauteng (GP):** Tiling, bricklaying, boundary walls, patio & room extensions, estate modernizations.

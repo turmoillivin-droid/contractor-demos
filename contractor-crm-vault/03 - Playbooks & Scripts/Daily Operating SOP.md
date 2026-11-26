@@ -9,17 +9,22 @@ Execute this exact SOP every business day to acquire contractor clients and run 
 
 ---
 
-## 🌅 Morning Sprint: 08:00 - 08:45 (Prospecting)
+## 🌅 Morning Sprint: 08:00 - 08:45 (Prospecting & Jev Vetting)
 1. Open [[Contractor Hunting Grounds (1.2M+)]] (specifically *ABAKHI BEZINDLU* 542k or *Building And Construction jobs* 187k).
 2. Filter by **Most Recent** posts.
-3. Apply the **5 Goldilocks Filters**:
-   - High-ticket trade (Tiler, Roofer, Bricklayer, Builder).
-   - Posted within last 24 hours.
-   - Shows real project photos.
-   - Has clear WhatsApp cell number.
-   - Has NO website.
-4. Pick **3 contractors**.
-5. Run the CLI generator (takes 30 seconds):
+3. Run the candidate through the [[Strict Lead Qualification & Jev Scoring Protocol]]:
+   - **Strict No-Website Audit:** Empty FB website field, free email (`@gmail`/`@yahoo`), and clean Google Page 1 (no owned `.co.za` domain).
+   - **Social Proof & Intent:** Pinned price menu, active *"How much?"* comments, or Google Maps listing without website.
+   - **Cash-Flow Qualifiers (Must have 2+):** Branded bakkie/trailer, crew of 2+ in uniform, estate/luxury projects, page > 12 months.
+   - **Demo-Ready Assets:** Clean graphic logo + 3–5 bright, finished daytime project photos (no trenches/pipes).
+4. Run Jev Evaluator:
+   ```bash
+   python3 .agents/skills/contractor-lead-engine/scripts/jev_contractor_evaluator.py \
+     --name "Contractor Name" --city "City" --fb-website-empty true --free-email true \
+     --google-domain-found false --pinned-menu true --inbound-comments 3 \
+     --fleet true --crew true --luxury-suburb true --page-months 24 --clean-logo true --hero-photos 5
+   ```
+5. If evaluated **Tier 1 Priority** (Score >= 85), generate mobile preview:
    ```bash
    python3 .agents/skills/contractor-lead-engine/scripts/generate_demo.py \
      --name "Contractor Name" \
