@@ -20,6 +20,7 @@ Welcome to your central operating workspace. This vault tracks all your contract
 | **🎯 Hunting Grounds** | 1.2M+ South African contractors & builders | [[Contractor Hunting Grounds (1.2M+)]] |
 | **📢 Distribution Hubs** | 24 Gauteng homeowner groups (1.5M+ reach) | [[Gauteng Homeowner Groups (1.5M+)]] |
 | **🎨 Flyer Blueprints** | 6 Tested group flyer templates & anti-spam SOP | [[Community Group Flyer Templates & Distribution Playbook]] |
+| **⚡ 92% Lean Engine** | Zero-token local pipeline & cost reduction architecture | [[92% Cost Reduction & Lean Execution System]] |
 | **🇿🇦 National Rolodex** | 9-province directory (5.4M+ reach) | [[National 9-Province Directory (5.4M+)]] |
 | **💬 Outreach Scripts** | Tested copy-paste WhatsApp pitches | [[WhatsApp Outreach Scripts]] |
 | **💰 Pricing & Menu** | A la carte & retainer package pricing | [[Pricing & Service Menu]] |
