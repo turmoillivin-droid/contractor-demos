@@ -32,7 +32,7 @@ tags: [lead, gauteng, nhbrc, builder, high-ticket]
 
 ## 📁 Project Demo Asset
 - **Local Demo Path:** `demo-ratombo-construction/index.html`
-- **Live Netlify URL:** *(Paste after drop)*
+- **Live URL:** `https://turmoillivin-droid.github.io/contractor-demos/demo-ratombo-construction/`
 
 ## 💬 Tailored WhatsApp Pitch
 ```text
@@ -43,7 +43,7 @@ Saw your double-storey structural concrete and rib slab work in Pretoria Buildin
 When quoting R1M+ builds for clients in estates around Centurion & Pretoria East (Midstream, Silver Lakes), affluent homeowners expect a professional website before signing or paying deposits. Sending loose photos hurts credibility on multi-million Rand jobs.
 
 I put together a quick 1-page mobile website preview for Ratombo Construction so clients take your quotes seriously:
-👉 [Paste Live Demo Link Here]
+👉 https://turmoillivin-droid.github.io/contractor-demos/demo-ratombo-construction/
 
 It puts your NHBRC credentials, structural build portfolio, and instant WhatsApp quote button in one clean link.
 

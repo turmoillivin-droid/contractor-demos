@@ -29,6 +29,7 @@ tags: [lead, gauteng, gutters, roofing, steelworks]
 
 ## 📁 Project Demo Asset
 - **Local Demo Path:** `demo-bc-gutters/index.html`
+- **Live URL:** `https://turmoillivin-droid.github.io/contractor-demos/demo-bc-gutters/`
 
 ## 💬 Tailored WhatsApp Pitch
 ```text
@@ -39,7 +40,7 @@ Saw your seamless stainless steel gutters and carport steelwork in Roofing Contr
 Suburban homeowners in Alberton, Boksburg, and the East Rand search online and want fast quotes on WhatsApp. Without a website, it’s easy to lose clients to commercial guttering franchises.
 
 I built a quick 1-page mobile site for B.C Gutters & Steel Works with an instant quote estimator:
-👉 https://bc-gutters.netlify.app
+👉 https://turmoillivin-droid.github.io/contractor-demos/demo-bc-gutters/
 
 It shows off your seamless guttering and carports with a direct WhatsApp quote button to your 065 number.
 

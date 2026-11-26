@@ -30,6 +30,7 @@ tags: [lead, gauteng, luxury, builder, high-ticket]
 
 ## 📁 Project Demo Asset
 - **Local Demo Path:** `demo-raboshabane-construction/index.html`
+- **Live URL:** `https://turmoillivin-droid.github.io/contractor-demos/demo-raboshabane-construction/`
 - **Special Asset:** Client has **drone/aerial site photography** of active double-storey builds.
 
 ## 💬 Tailored WhatsApp Pitch
@@ -41,7 +42,7 @@ Saw your double-storey build with the drone photos in Abakhi Bezindlu—impressi
 When pitching R1M+ builds for clients in Gauteng estates, high-budget homeowners expect a proper website before signing contracts or paying deposits. Sending loose photos in Facebook groups makes it hard to close premium clients.
 
 I put together a clean 1-page mobile website preview for Raboshabane Trading so clients take your quotes seriously:
-👉 https://raboshabane-construction.netlify.app
+👉 https://turmoillivin-droid.github.io/contractor-demos/demo-raboshabane-construction/
 
 It highlights your double-storey builds, masonry expertise, and includes an instant "Quote on WhatsApp" button.
 

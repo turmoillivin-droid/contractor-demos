@@ -7,15 +7,20 @@ tags: [demos, templates]
 
 Here is the index of all generated mobile contractor landing page previews and ready-to-deploy zip archives stored in your workspace:
 
-| Business Name | Owner | Trade | Local HTML Path | Ready Zip Package | Target Live Subdomain |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Ratombo Construction** | Murendeni | NHBRC Luxury Home Building | `demo-ratombo-construction/index.html` | `ratombo-construction.zip` | `ratombo-construction.tiiny.site` |
-| **M&M Projects & Developments** | Management | Double-Storey & Plumbing | `demo-mm-projects/index.html` | `mm-projects.zip` | `mm-projects-pretoria.tiiny.site` |
-| **Raboshabane Trading** | Lethabo | Luxury Double-Storey Estates | `demo-raboshabane-construction/index.html` | `raboshabane-construction.zip` | `raboshabane-construction.tiiny.site` |
-| **Molise Construction & Tiling** | Maiketso | Ceramic Tiling & Building | `demo-molise-construction/index.html` | `molise-construction.zip` | `molise-construction.tiiny.site` |
-| **B.C Gutters & Steel Works** | Bigboy | Seamless Gutters & Steel | `demo-bc-gutters/index.html` | `bc-gutters.zip` | `bc-gutters.tiiny.site` |
-| **Brian Simanyandi Tiling** | Brian | Porcelain Floor Tiling | `demo-brian-tiling/index.html` | `simanyandi-tiling.zip` | `simanyandi-tiling.tiiny.site` |
-| **Nozaphi Construction** | Mandla | House Building & 3D Plans | `demo-nozaphi-construction/index.html` | `nozaphi-construction.zip` | `nozaphi-construction.tiiny.site` |
+| Business Name | Owner | Trade | Local HTML Path | Live GitHub Pages Link |
+| :--- | :--- | :--- | :--- | :--- |
+| **Ratombo Construction** | Murendeni | NHBRC Luxury Home Building | `demo-ratombo-construction/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-ratombo-construction/) |
+| **M&M Projects & Developments** | Management | Double-Storey & Plumbing | `demo-mm-projects/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-mm-projects/) |
+| **Raboshabane Trading** | Lethabo | Luxury Double-Storey Estates | `demo-raboshabane-construction/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-raboshabane-construction/) |
+| **Molise Construction & Tiling** | Maiketso | Ceramic Tiling & Building | `demo-molise-construction/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-molise-construction/) |
+| **B.C Gutters & Steel Works** | Bigboy | Seamless Gutters & Steel | `demo-bc-gutters/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-bc-gutters/) |
+| **Brian Simanyandi Tiling** | Brian | Porcelain Floor Tiling | `demo-brian-tiling/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-brian-tiling/) |
+| **Nozaphi Construction** | Mandla | House Building & 3D Plans | `demo-nozaphi-construction/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-nozaphi-construction/) |
+
+---
+
+## 🌐 Central Showcase Hub
+- **Portal URL:** [https://turmoillivin-droid.github.io/contractor-demos/](https://turmoillivin-droid.github.io/contractor-demos/)
 
 ---
 
