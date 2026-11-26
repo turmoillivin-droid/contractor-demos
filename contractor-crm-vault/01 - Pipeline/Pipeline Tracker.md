@@ -31,6 +31,13 @@ SORT file.name ASC
 - [ ] [[Bigboy - BC Gutters]] — Seamless Gutters & Steel Carports (East Rand) • `065 624 7288`
 - [ ] [[Brian - Simanyandi Tiling]] — Porcelain Floor Tiling (East London) • `069 422 5882`
 - [ ] [[Mandla - Nozaphi Construction]] — Turnkey House Building & 3D Plans (Durban) • `084 049 0448`
+- [ ] [[Chenge - Mchenge Electrical]] — Electrical Wiring & DB Boards (Mount Frere, EC) • `079 859 9613`
+- [ ] [[Tsupha - Bafokeng Plumbing]] — JoJo Water Tanks & Plumbing (Rustenburg, NW) • `073 172 1468`
+- [ ] [[RoofGlow - Cape Town]] — Roof Cleaning & UV Acrylic Coating (Cape Town, WC) • `062 385 2941`
+- [ ] [[Tholnhlanhla - Maduna Built Ins]] — Designer Fitted Kitchens & Wardrobes (Durban, KZN) • `083 631 2417`
+- [ ] [[Sibusiso - BM Aluminum]] — Aluminium Windows & Steel Gates (King William's Town, EC) • `064 961 6669`
+- [ ] [[Samukeliso - SKWE-BUILD]] — Torch-On Waterproofing & Building (Ekangala, GP) • `084 273 4383`
+- [ ] [[Lucky - Lucky Nkuna Plastering]] — Rhinolite Skimming & Gamazine (Johannesburg, GP) • `063 420 1160`
 
 ---
 

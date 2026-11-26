@@ -16,14 +16,21 @@ Here is the index of all generated mobile contractor landing page previews and r
 | **B.C Gutters & Steel Works** | Bigboy | Seamless Gutters & Steel | `bc-gutters.zip` (653 KB) | `demo-bc-gutters/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-bc-gutters/) |
 | **Brian Simanyandi Tiling** | Brian | Porcelain Floor Tiling | `simanyandi-tiling.zip` (381 KB) | `demo-brian-tiling/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-brian-tiling/) |
 | **Nozaphi Construction** | Mandla | House Building & 3D Plans | `nozaphi-construction.zip` (1.3 MB) | `demo-nozaphi-construction/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-nozaphi-construction/) |
+| **Mchenge Electrical and Painting** | Chenge | DB Boards & Electrical Wiring | `mchenge-electrical.zip` (914 KB) | `demo-mchenge-electrical/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-mchenge-electrical/) |
+| **Bafokeng Plumbing Maintenance** | Tsupha | JoJo Tanks & Plumbing | `bafokeng-plumbing.zip` (598 KB) | `demo-bafokeng-plumbing/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-bafokeng-plumbing/) |
+| **RoofGlow Property Care** | RoofGlow Team | Roof Washing & Acrylic UV Coating | `roofglow-capetown.zip` (1.5 MB) | `demo-roofglow-capetown/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-roofglow-capetown/) |
+| **Maduna Built Ins (Pty) Ltd** | Thol'nhlanhla | Fitted Kitchens & Wardrobes | `maduna-builtins.zip` (195 KB) | `demo-maduna-builtins/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-maduna-builtins/) |
+| **BM Aluminum & Steel Fabrications** | Sibusiso | Aluminium Windows & Steel Gates | `bm-aluminum.zip` (1.2 MB) | `demo-bm-aluminum/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-bm-aluminum/) |
+| **SKWE-BUILD Construction & Roofing** | Samukeliso | Torch-On Waterproofing & Alterations | `skwe-build.zip` (2.2 MB) | `demo-skwe-build/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-skwe-build/) |
+| **Lucky Nkuna Building & Plastering** | Lucky | Rhinolite Skimming & Gamazine | `lucky-nkuna.zip` (323 KB) | `demo-lucky-nkuna/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-lucky-nkuna/) |
 
 ---
 
 ## 📸 Authentic Facebook Gallery Guarantee
-100% of generic placeholder stock photos (Unsplash) have been replaced across all 7 contractor websites. Every site now serves authentic high-resolution jobsite photos downloaded directly from each contractor's Facebook page/posts:
+100% of generic placeholder stock photos (Unsplash) have been replaced across all 14 contractor websites. Every site now serves authentic high-resolution jobsite photos downloaded directly from each contractor's Facebook page/posts:
 - **Zero Token Expiry:** All photos are hosted locally inside `images/` within each website repository.
-- **Unique Proof of Craft:** Drone aerial views, concrete rib-and-block slabs, steel gates, rhinoboard ceilings, and laser-leveled porcelain floor tiling.
-- **Instant Deploy Packages:** All `.zip` archives at workspace root bundle both `index.html` and the full `images/` folder ready for drag-and-drop hosting on Tiiny.host, Surge, or Netlify.
+- **Unique Proof of Craft:** Drone aerial views, concrete rib-and-block slabs, steel gates, JoJo water tanks, DB board chasing, fitted designer kitchens, and laser-leveled porcelain floor tiling.
+- **Instant Deploy Packages:** All 14 `.zip` archives at workspace root bundle both `index.html` and the full `images/` folder ready for drag-and-drop hosting on Tiiny.host, Surge, or Netlify.
 
 ---
 

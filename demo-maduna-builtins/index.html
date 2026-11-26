@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maduna Built Ins (Pty) Ltd | Durban & Umlazi, KwaZulu-Natal</title>
+  <meta name="description" content="Transform your home with custom high-gloss kitchen cupboards, soft-close drawers, engineered quartz countertops, and floor-to-ceiling bedroom wardrobes in Durban & KZN.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .hero-pattern {
+      background-color: #0f172a;
+      background-image: radial-gradient(rgba(245, 158, 11, 0.15) 1px, transparent 0);
+      background-size: 24px 24px;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-500 selection:text-white">
+
+  <!-- TOP BAR -->
+  <div class="bg-amber-600 text-slate-950 font-semibold text-xs sm:text-sm py-2 px-4 text-center tracking-wide flex items-center justify-center gap-2">
+    <span>📍 Based in Durban & Umlazi, KwaZulu-Natal — Serving All Surrounding Areas!</span>
+    <span class="hidden md:inline">|</span>
+    <span class="hidden md:inline">⚡ Free On-Site Estimates</span>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-18 flex items-center justify-between py-3">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-lg bg-amber-500 text-slate-950 flex items-center justify-center font-black text-xl shadow-md">
+          M
+        </div>
+        <div>
+          <span class="text-base sm:text-lg font-extrabold text-slate-900 block leading-tight tracking-tight">Maduna Built Ins (Pty) Ltd</span>
+          <span class="text-xs font-semibold text-amber-700 tracking-wider uppercase block">Custom Kitchens & Built-In Cupboards</span>
+        </div>
+      </div>
+      
+      <div class="flex items-center gap-2 sm:gap-4">
+        <a href="tel:0836312417" class="hidden sm:flex items-center gap-2 text-sm font-bold text-slate-700 hover:text-amber-600 px-3 py-2 rounded-lg border border-slate-200 transition">
+          📞 083 631 2417
+        </a>
+        <a href="https://wa.me/27836312417?text=Hi%20Thol'nhlanhla,%20I%20saw%20your%20website%20and%20would%20like%20a%20quote." target="_blank" class="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-lg shadow hover:shadow-md transition">
+          WhatsApp Us
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION WITH INSTANT QUOTE ESTIMATOR -->
+  <header class="hero-pattern py-16 sm:py-24 text-white relative">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 px-3.5 py-1.5 rounded-full text-amber-400 text-xs font-bold tracking-wide uppercase">
+            <span>🛡️ Verified Trade Professional</span>
+            <span>•</span>
+            <span>Durban & Umlazi</span>
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight sm:leading-none text-white">
+            Designer Fitted Kitchens, Granite Worktops & Built-In Wardrobes
+          </h1>
+
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed max-w-xl">
+            Transform your home with custom high-gloss kitchen cupboards, soft-close drawers, engineered quartz countertops, and floor-to-ceiling bedroom wardrobes in Durban & KZN.
+          </p>
+
+          <div class="pt-2 flex flex-wrap items-center gap-4 text-xs font-semibold text-slate-300">
+            <span class="flex items-center gap-1.5">✓ 100% Own Tools & Transport</span>
+            <span class="flex items-center gap-1.5">✓ Hands-On Supervision</span>
+            <span class="flex items-center gap-1.5">✓ Free WhatsApp Estimates</span>
+          </div>
+        </div>
+
+        <!-- INTERACTIVE WHATSAPP QUOTE CALCULATOR -->
+        <div class="lg:col-span-5">
+          <div class="bg-white text-slate-900 rounded-2xl p-6 sm:p-8 shadow-2xl border border-slate-100">
+            <h2 class="text-xl font-black text-slate-900 mb-1">Get an Instant Quote</h2>
+            <p class="text-xs text-slate-500 mb-6">Select your service for a direct response on WhatsApp.</p>
+
+            <form onsubmit="handleQuote(event)" class="space-y-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Service Required</label>
+                <select id="est-service" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2.5 text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none" required>
+                  <option value="Full Kitchen Renovation">Complete Fitted Kitchen Cabinetry</option>
+                  <option value="Granite / Quartz Tops">Kitchen Countertop Replacement</option>
+                  <option value="Bedroom Wardrobes">Built-in Bedroom Cupboards</option>
+                  <option value="TV Wall Unit">Custom Media & TV Feature Unit</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Your Suburb / Location</label>
+                <input id="est-location" type="text" placeholder="e.g. Durban & Umlazi..." class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2.5 text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none" required>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Details / Project Scope</label>
+                <input id="est-details" type="text" placeholder="e.g. Size, number of rooms, urgent repairs..." class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2.5 text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none">
+              </div>
+
+              <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 rounded-xl shadow-md transition flex items-center justify-center gap-2 text-sm">
+                <span>Send Request via WhatsApp</span>
+                <span>&rarr;</span>
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- SERVICES SECTION -->
+  <section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-amber-600 font-bold text-xs uppercase tracking-wider block mb-2">Our Services</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Expert Craftsmanship & Solutions</h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-3">High quality craftsmanship using professional tools and quality materials. Every project is personally supervised.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-6 hover:shadow-lg transition group">
+          <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-600 mb-5 group-hover:bg-amber-500 group-hover:text-slate-950 transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Custom Fitted Kitchens</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">Modern high-gloss and matte kitchen cabinetry, island units, pantries, and spice rack pull-outs.</p>
+          <ul class="text-xs text-slate-500 space-y-1.5 font-medium">
+            <li>• High-gloss & matte finishes</li>
+            <li>• Island bars & breakfast nooks</li>
+            <li>• Soft-close Blum hinges</li>
+          </ul>
+        </div>
+        <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-6 hover:shadow-lg transition group">
+          <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-600 mb-5 group-hover:bg-amber-500 group-hover:text-slate-950 transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Granite & Quartz Countertops</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">Precision-cut engineered quartz, Caesarstone, and natural granite slabs with undermount sinks.</p>
+          <ul class="text-xs text-slate-500 space-y-1.5 font-medium">
+            <li>• Polished pencil-edge bevels</li>
+            <li>• Undermount sink cutouts</li>
+            <li>• Heat & stain resistant</li>
+          </ul>
+        </div>
+        <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-6 hover:shadow-lg transition group">
+          <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-600 mb-5 group-hover:bg-amber-500 group-hover:text-slate-950 transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Built-in Bedroom Wardrobes</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">Floor-to-ceiling sliding and hinged door wardrobes with integrated vanity dressers and drawers.</p>
+          <ul class="text-xs text-slate-500 space-y-1.5 font-medium">
+            <li>• Mirrored sliding doors</li>
+            <li>• Internal shoe racks & shelving</li>
+            <li>• Soft-closing drawer banks</li>
+          </ul>
+        </div>
+        <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-6 hover:shadow-lg transition group">
+          <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-600 mb-5 group-hover:bg-amber-500 group-hover:text-slate-950 transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">TV Units & Floating Shelves</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">Contemporary feature TV wall units, acoustic slat backing, floating consoles, and LED underlighting.</p>
+          <ul class="text-xs text-slate-500 space-y-1.5 font-medium">
+            <li>• Floating media consoles</li>
+            <li>• Concealed cable channels</li>
+            <li>• Ambient LED backlighting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECENT PROJECTS / AUTHENTIC GALLERY -->
+  <section class="py-20 bg-slate-950 text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-amber-400 font-bold text-xs uppercase tracking-wider block mb-2">Real Job-Site Photos</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Recent Project Gallery</h2>
+          <p class="text-slate-400 text-sm mt-2 max-w-xl">Every photo below is from our actual completed installations and job sites in Durban & Umlazi and surrounds.</p>
+        </div>
+        <div class="mt-4 md:mt-0">
+          <a href="https://wa.me/27836312417?text=Hi%20Thol'nhlanhla,%20I%20would%20like%20to%20see%20more%20photos%20of%20your%20recent%20work." target="_blank" class="inline-flex items-center gap-2 text-xs font-bold bg-slate-800 hover:bg-slate-700 text-amber-400 px-4 py-2.5 rounded-xl border border-slate-700 transition">
+            Request Photos on WhatsApp &rarr;
+          </a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700/80 group hover:border-amber-500/50 transition">
+          <div class="relative overflow-hidden h-52">
+            <img src="images/photo-1.jpg" alt="High-Gloss Fitted Kitchen" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 bg-slate-950/80 backdrop-blur-md text-amber-400 font-bold text-[10px] px-2.5 py-1 rounded-md uppercase">Fitted Kitchen</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-bold text-white text-base mb-1">High-Gloss Fitted Kitchen</h3>
+            <p class="text-xs text-slate-400 mb-3">Two-tone contemporary kitchen cabinetry with granite tops and stainless steel handles.</p>
+            <span class="text-[11px] text-amber-400 font-semibold block">📍 Durban North Coastal</span>
+          </div>
+        </div>
+        <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700/80 group hover:border-amber-500/50 transition">
+          <div class="relative overflow-hidden h-52">
+            <img src="images/photo-2.jpg" alt="Modern Kitchen Island & Tops" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 bg-slate-950/80 backdrop-blur-md text-amber-400 font-bold text-[10px] px-2.5 py-1 rounded-md uppercase">Kitchen Island</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-bold text-white text-base mb-1">Modern Kitchen Island & Tops</h3>
+            <p class="text-xs text-slate-400 mb-3">Seamless kitchen island with undermount double sink and matching upper cupboards.</p>
+            <span class="text-[11px] text-amber-400 font-semibold block">📍 Umlazi Residence</span>
+          </div>
+        </div>
+        <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700/80 group hover:border-amber-500/50 transition">
+          <div class="relative overflow-hidden h-52">
+            <img src="images/photo-3.jpg" alt="Floor-to-Ceiling Wardrobes" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 bg-slate-950/80 backdrop-blur-md text-amber-400 font-bold text-[10px] px-2.5 py-1 rounded-md uppercase">Built-In Wardrobe</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-bold text-white text-base mb-1">Floor-to-Ceiling Wardrobes</h3>
+            <p class="text-xs text-slate-400 mb-3">Custom white melamine wardrobe bank with sleek silver bar handles and drawer banks.</p>
+            <span class="text-[11px] text-amber-400 font-semibold block">📍 Westville Bedroom</span>
+          </div>
+        </div>
+        <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700/80 group hover:border-amber-500/50 transition">
+          <div class="relative overflow-hidden h-52">
+            <img src="images/photo-4.jpg" alt="Kitchen Cabinet Detail" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 bg-slate-950/80 backdrop-blur-md text-amber-400 font-bold text-[10px] px-2.5 py-1 rounded-md uppercase">Cabinet Craft</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-bold text-white text-base mb-1">Kitchen Cabinet Detail</h3>
+            <p class="text-xs text-slate-400 mb-3">Soft-closing hinges, microwave surround unit, and polished dark worktops.</p>
+            <span class="text-[11px] text-amber-400 font-semibold block">📍 KZN Modern Home</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GUARANTEE SECTION -->
+  <section class="py-16 bg-slate-900 text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="bg-slate-800/90 border border-slate-700 rounded-2xl p-8 sm:p-12">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div>
+            <span class="text-amber-400 font-bold text-xs uppercase tracking-wider block mb-2">Our Promise</span>
+            <h3 class="text-2xl font-black text-white mb-2">Why Homeowners Call Us</h3>
+            <p class="text-xs text-slate-300 leading-relaxed">We pride ourselves on transparent quotes, punctual arrival, and clean, professional workmanship on every residential and commercial contract.</p>
+          </div>
+          <div class="space-y-3 text-xs text-slate-300">
+            <div class="flex items-start gap-2.5">
+              <span class="text-emerald-400 font-bold">✓</span>
+              <div><strong class="text-white block">Transparent Pricing:</strong> Clear upfront labor & material rates agreed before tools touch the job.</div>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <span class="text-emerald-400 font-bold">✓</span>
+              <div><strong class="text-white block">Direct Owner Oversight:</strong> Hands-on supervision ensuring high standards from start to finish.</div>
+            </div>
+          </div>
+          <div class="space-y-3 text-xs text-slate-300">
+            <div class="flex items-start gap-2.5">
+              <span class="text-emerald-400 font-bold">✓</span>
+              <div><strong class="text-white block">Quality Guaranteed:</strong> Durable materials, neat finishes, and professional clean-up upon completion.</div>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <span class="text-emerald-400 font-bold">✓</span>
+              <div><strong class="text-white block">Fast WhatsApp Quotes:</strong> Send photos or measurements for an instant, obligation-free quote.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 border-t border-slate-800 py-12 text-center text-xs text-slate-500">
+    <div class="max-w-6xl mx-auto px-4 space-y-4">
+      <div class="font-extrabold text-white text-base">Maduna Built Ins (Pty) Ltd</div>
+      <p>Serving Durban & Umlazi, KwaZulu-Natal and surrounding communities.</p>
+      <div class="flex justify-center gap-6 text-slate-400 font-medium">
+        <a href="tel:0836312417" class="hover:text-amber-400 transition">📞 083 631 2417</a>
+        <a href="https://wa.me/27836312417" target="_blank" class="hover:text-amber-400 transition">💬 WhatsApp</a>
+      </div>
+      <p class="text-[10px] text-slate-600 pt-4">&copy; 2026 Maduna Built Ins (Pty) Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- STICKY MOBILE CTA BAR -->
+  <div class="fixed bottom-0 left-0 right-0 z-50 bg-slate-950/95 backdrop-blur-md border-t border-slate-800 p-3 sm:hidden flex items-center gap-3">
+    <a href="tel:0836312417" class="flex-1 bg-slate-800 hover:bg-slate-700 text-white font-bold py-3 text-center rounded-xl text-xs border border-slate-700 transition flex items-center justify-center gap-2">
+      📞 Call Now
+    </a>
+    <a href="https://wa.me/27836312417?text=Hi%20Thol'nhlanhla,%20I%20saw%20your%20website%20and%20need%20a%20quote." target="_blank" class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 text-center rounded-xl text-xs shadow transition flex items-center justify-center gap-2">
+      💬 WhatsApp Quote
+    </a>
+  </div>
+
+  <script>
+    function handleQuote(e) {
+      e.preventDefault();
+      const service = document.getElementById('est-service').value;
+      const location = document.getElementById('est-location').value;
+      const details = document.getElementById('est-details').value;
+      
+      const text = `Hi Thol'nhlanhla, I would like a quote for:
+• Service: ${service}
+• Suburb: ${location}
+• Details: ${details || 'Standard job'}`;
+      const url = `https://wa.me/27836312417?text=${encodeURIComponent(text)}`;
+      window.open(url, '_blank');
+    }
+  </script>
+
+</body>
+</html>

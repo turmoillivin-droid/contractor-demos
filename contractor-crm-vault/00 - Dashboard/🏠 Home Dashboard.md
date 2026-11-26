@@ -14,7 +14,7 @@ Welcome to your central operating workspace. This vault tracks all your contract
 | Section | Description | Link |
 | :--- | :--- | :--- |
 | **📊 Pipeline** | Track active prospects from discovery to paid | [[Pipeline Tracker]] |
-| **🌐 Demos & Hub** | 7 Live contractor demos with authentic Facebook galleries | [[Website Demos Index]] |
+| **🌐 Demos & Hub** | 14 Live contractor demos with authentic Facebook galleries | [[Website Demos Index]] |
 | **🎯 Hunting Grounds** | 1.2M+ South African contractors & builders | [[Contractor Hunting Grounds (1.2M+)]] |
 | **📢 Distribution Hubs** | 24 Gauteng homeowner groups (1.5M+ reach) | [[Gauteng Homeowner Groups (1.5M+)]] |
 | **🇿🇦 National Rolodex** | 9-province directory (5.4M+ reach) | [[National 9-Province Directory (5.4M+)]] |
@@ -36,7 +36,7 @@ Welcome to your central operating workspace. This vault tracks all your contract
 
 ---
 
-## 🔥 Current Active Pipeline (7 Verified Leads)
+## 🔥 Current Active Pipeline (14 Verified Leads)
 
 | Contractor | Trade | Province | Status | Note |
 | :--- | :--- | :--- | :--- | :--- |
@@ -47,6 +47,13 @@ Welcome to your central operating workspace. This vault tracks all your contract
 | **Bigboy Chinhema** | Seamless Gutters & Steel | Gauteng | `#status/ready-to-pitch` | [[Bigboy - BC Gutters]] |
 | **Brian Simanyandi** | Porcelain Floor Tiling | Eastern Cape | `#status/ready-to-pitch` | [[Brian - Simanyandi Tiling]] |
 | **Mandla Sky Zulu** | 3D House Plans & Building | KwaZulu-Natal | `#status/ready-to-pitch` | [[Mandla - Nozaphi Construction]] |
+| **Chenge Methusi** | DB Boards & Electrical Wiring | Eastern Cape | `#status/ready-to-pitch` | [[Chenge - Mchenge Electrical]] |
+| **Tsupha Thala** | JoJo Water Tanks & Plumbing | North West | `#status/ready-to-pitch` | [[Tsupha - Bafokeng Plumbing]] |
+| **RoofGlow Team** | Roof Cleaning & UV Acrylic Coating | Western Cape | `#status/ready-to-pitch` | [[RoofGlow - Cape Town]] |
+| **Thol'nhlanhla Maduna** | Designer Fitted Kitchens & Wardrobes | KwaZulu-Natal | `#status/ready-to-pitch` | [[Tholnhlanhla - Maduna Built Ins]] |
+| **Sibusiso Maramb** | Aluminium Windows & Steel Gates | Eastern Cape | `#status/ready-to-pitch` | [[Sibusiso - BM Aluminum]] |
+| **Samukeliso Manana** | Torch-On Waterproofing & Building | Gauteng | `#status/ready-to-pitch` | [[Samukeliso - SKWE-BUILD]] |
+| **Lucky Nkuna** | Rhinolite Skimming & Gamazine | Gauteng | `#status/ready-to-pitch` | [[Lucky - Lucky Nkuna Plastering]] |
 
 ---
 *Created for Antigravity & Obsidian integration.*
