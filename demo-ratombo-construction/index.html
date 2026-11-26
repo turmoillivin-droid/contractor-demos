@@ -3,135 +3,199 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ratombo Construction | Quality Building & Home Services</title>
-  <meta name="description" content="Professional NHBRC Certified Residential Building and home improvements in Centurion & Pretoria and across Gauteng. Call 0762845600 for a free quote.">
+  <title>Ratombo Construction | Commercial & Luxury Residential Building</title>
+  <meta name="description" content="NHBRC certified commercial and luxury residential construction in Centurion, Pretoria, and Gauteng. Specializing in turnkey builds, rib slabs, concrete engineering, and project management.">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Plus Jakarta Sans', sans-serif; }
-    .hero-pattern {
-      background-color: #0f172a;
-      background-image: radial-gradient(rgba(245, 158, 11, 0.15) 1px, transparent 0);
-      background-size: 24px 24px;
+    :root {
+      --navy: #222258;
+      --navy-deep: #171736;
+      --navy-elevated: #1F1B52;
+      --bg: #F7F8FC;
+      --border: #E7E7EF;
+      --gold: #FCB92C;
     }
-    .pulse-ring {
-      box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
-      animation: pulse-green 2s infinite;
+    body { font-family: 'Heebo', sans-serif; }
+    .bg-navy { background-color: var(--navy); }
+    .bg-navy-deep { background-color: var(--navy-deep); }
+    .bg-navy-elevated { background-color: var(--navy-elevated); }
+    .text-navy { color: var(--navy); }
+    .border-rule { border-color: var(--border); }
+    .text-gold { color: var(--gold); }
+    .bg-gold { background-color: var(--gold); }
+    
+    .eyebrow {
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
     }
-    @keyframes pulse-green {
-      0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
-      70% { box-shadow: 0 0 0 14px rgba(34, 197, 94, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+    .eyebrow::before {
+      content: "";
+      display: inline-block;
+      width: 28px;
+      height: 1px;
+      background-color: var(--gold);
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    .card-lift {
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .card-lift:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 35px -15px rgba(34, 34, 88, 0.15);
+    }
+
+    .icon-box {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(34, 34, 88, 0.06);
+      color: var(--navy);
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+    .card-lift:hover .icon-box {
+      background-color: var(--navy);
+      color: #FFFFFF;
     }
   </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-500 selection:text-white">
+<body class="bg-[#F7F8FC] text-slate-700 antialiased selection:bg-[#222258] selection:text-white">
 
-  <!-- TOP BAR -->
-  <div class="bg-amber-600 text-slate-950 font-semibold text-xs sm:text-sm py-2 px-4 text-center tracking-wide flex items-center justify-center gap-2">
-    <span>📍 Based in Centurion & Pretoria, Gauteng — Serving All Surrounding Areas!</span>
-    <span class="hidden md:inline">|</span>
-    <span class="hidden md:inline">⚡ Free On-Site Estimates</span>
-  </div>
-
-  <!-- NAVIGATION -->
-  <nav class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-18 flex items-center justify-between py-3">
+  <!-- TOP MEMBERSHIP & CREDENTIALS BAR -->
+  <aside aria-label="Credentials and contact bar" class="bg-[#171736] text-slate-300 text-xs py-2.5 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
       <div class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-lg bg-amber-500 text-slate-950 flex items-center justify-center font-black text-xl shadow-md">
+        <span class="inline-flex items-center gap-1.5 font-bold text-amber-400">
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+          NHBRC CERTIFIED BUILDER
+        </span>
+        <span class="hidden md:inline text-slate-600">|</span>
+        <span class="hidden md:inline text-slate-400">CIPC Enterprise: K2020162157</span>
+        <span class="hidden md:inline text-slate-600">|</span>
+        <span class="hidden md:inline text-slate-400">Centurion & Pretoria, Gauteng</span>
+      </div>
+      <div class="flex items-center gap-4 text-xs font-semibold">
+        <a href="tel:0762845600" class="hover:text-amber-400 transition flex items-center gap-1.5">
+          <span>📞</span> 076 284 5600
+        </a>
+        <a href="mailto:Ratombo95@gmail.com" class="hover:text-amber-400 transition hidden sm:inline">
+          ✉️ Ratombo95@gmail.com
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- PRIMARY NAVIGATION -->
+  <nav class="sticky top-0 z-40 bg-white border-b border-rule shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-11 h-11 bg-navy text-white rounded-lg flex items-center justify-center font-black text-xl shadow">
           R
         </div>
         <div>
-          <span class="text-base sm:text-lg font-extrabold text-slate-900 block leading-tight tracking-tight">Ratombo Construction</span>
-          <span class="text-xs font-semibold text-amber-700 tracking-wider uppercase block">Contractor Services</span>
+          <span class="text-xl font-extrabold text-navy tracking-tight block leading-tight">RATOMBO</span>
+          <span class="text-[11px] font-bold text-slate-500 uppercase tracking-wider block">Construction (Pty) Ltd</span>
         </div>
       </div>
-      
-      <div class="flex items-center gap-2 sm:gap-4">
-        <a href="tel:0762845600" class="hidden sm:flex items-center gap-2 text-sm font-bold text-slate-700 hover:text-amber-600 px-3 py-2 rounded-lg border border-slate-200 transition">
-          📞 0762845600
-        </a>
-        <a href="https://wa.me/27762845600?text=Hi%20Murendeni,%20I%20saw%20your%20website%20and%20would%20like%20a%20quote." target="_blank" class="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-lg shadow hover:shadow-md transition">
-          WhatsApp Us
+
+      <!-- NAV LINKS -->
+      <div class="hidden lg:flex items-center gap-8 text-sm font-bold text-slate-700">
+        <a href="#services" class="hover:text-navy transition">Services</a>
+        <a href="#delivery" class="hover:text-navy transition">Delivery Methods</a>
+        <a href="#projects" class="hover:text-navy transition">Our Builds</a>
+        <a href="#why-us" class="hover:text-navy transition">Standards</a>
+        <a href="#process" class="hover:text-navy transition">Process</a>
+      </div>
+
+      <!-- ACTION BUTTON -->
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/27762845600?text=Hi%20Murendeni,%20I'd%20like%20to%20discuss%20a%20construction%20project." target="_blank" class="bg-navy hover:bg-slate-900 text-white font-extrabold text-xs uppercase tracking-wider px-5 py-3 rounded-lg shadow transition flex items-center gap-2">
+          <span>Discuss a Project</span>
+          <span>&rarr;</span>
         </a>
       </div>
     </div>
   </nav>
 
-  <!-- HERO SECTION -->
-  <header class="hero-pattern text-white py-16 sm:py-24 relative overflow-hidden border-b border-slate-800">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
+  <!-- SPLIT-FADE HERO (DOSS & HORKY STYLE) -->
+  <header class="relative bg-navy-deep text-white overflow-hidden border-b border-slate-800">
+    <div class="absolute inset-0 z-0 opacity-25">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=80" alt="Luxury Estate Construction" class="w-full h-full object-cover">
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-20 sm:py-28 relative z-10">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         
-        <div class="lg:col-span-7 space-y-6">
-          <div class="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 text-amber-400 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
-            <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
-            Experienced Tradesmen • Own Professional Equipment
+        <div class="lg:col-span-8 space-y-6">
+          <div class="eyebrow text-amber-400">
+            ENGINEERED BUILDING & PROJECT MANAGEMENT
           </div>
           
-          <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1]">
-            Reliable Craftsmanship for Your <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-200">Home & Business</span>
+          <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.08] text-white">
+            WE BUILD MORE THAN PROJECTS.<br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-200 to-white">WE BUILD YOUR FUTURE.</span>
           </h1>
-          
-          <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-xl">
-            Specializing in NHBRC Certified Residential Building, Concrete Rib & Slabs, Luxury Double-Storey Construction, Steel Fixing, Turnkey Project Management. Honest contractor pricing, direct communication, and clean work with zero middleman markups.
+
+          <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl font-normal">
+            NHBRC-certified commercial and luxury residential construction across Centurion, Pretoria, and Gauteng. From reinforced suspended rib slabs to multi-storey turnkey estate residences.
           </p>
 
-          <!-- CTAs -->
-          <div class="flex flex-col sm:flex-row gap-4 pt-2">
-            <a href="https://wa.me/27762845600?text=Hello%20Murendeni,%20I'd%20like%20to%20request%20a%20free%20quote." target="_blank" class="inline-flex items-center justify-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-black px-6 py-4 rounded-xl shadow-lg text-base transition transform hover:-translate-y-0.5">
-              <span>💬 Get WhatsApp Quote</span>
+          <div class="flex flex-col sm:flex-row gap-4 pt-4">
+            <a href="https://wa.me/27762845600?text=Hello%20Murendeni,%20I'd%20like%20to%20request%20a%20formal%20quote%20for%20a%20project." target="_blank" class="bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-sm uppercase tracking-wider px-7 py-4 rounded-lg shadow-lg transition flex items-center justify-center gap-2">
+              <span>DISCUSS YOUR PROJECT</span>
+              <span>&rarr;</span>
             </a>
             
-            <a href="tel:0762845600" class="inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-white font-bold px-6 py-4 rounded-xl border border-slate-700 text-base transition">
-              <span>Call: 0762845600</span>
+            <a href="#projects" class="inline-flex items-center justify-center gap-2 border border-slate-600 hover:bg-white/10 text-white font-bold text-sm uppercase tracking-wider px-7 py-4 rounded-lg transition">
+              EXPLORE OUR BUILDS
             </a>
-          </div>
-
-          <div class="grid grid-cols-3 gap-3 pt-4 border-t border-slate-800/80 text-xs sm:text-sm text-slate-300">
-            <div><span class="text-amber-400 font-bold">✓</span> On-Time Delivery</div>
-            <div><span class="text-amber-400 font-bold">✓</span> Free Site Assessment</div>
-            <div><span class="text-amber-400 font-bold">✓</span> All Gauteng Covered</div>
           </div>
         </div>
 
-        <!-- QUOTE ESTIMATOR -->
-        <div class="lg:col-span-5">
-          <div class="bg-white rounded-2xl p-6 sm:p-8 text-slate-900 shadow-2xl border border-slate-100">
-            <div class="flex items-center justify-between mb-4">
-              <span class="bg-amber-100 text-amber-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Instant Quote</span>
-              <span class="text-xs text-slate-500 font-medium">Takes 30 seconds</span>
+        <!-- QUICK ESTIMATE MODAL CARD -->
+        <div class="lg:col-span-4">
+          <div class="bg-white rounded-xl p-6 text-slate-900 shadow-2xl border border-rule">
+            <div class="flex items-center justify-between pb-3 mb-4 border-b border-rule">
+              <span class="text-xs font-black text-navy uppercase tracking-wider">PROJECT INQUIRY</span>
+              <span class="text-[10px] font-bold text-amber-600 bg-amber-50 px-2.5 py-0.5 rounded">NHBRC Enrolled</span>
             </div>
             
-            <h2 class="text-xl font-extrabold text-slate-900 mb-2">Request an Estimate</h2>
-            <p class="text-xs text-slate-600 mb-5">Select your trade service and get a fast quotation directly on WhatsApp.</p>
+            <h2 class="text-lg font-extrabold text-navy mb-1">Request a Consultation</h2>
+            <p class="text-xs text-slate-500 mb-4">Direct contractor rates with on-site engineering oversight.</p>
             
-            <form onsubmit="event.preventDefault(); sendWhatsApp();" class="space-y-4">
+            <form onsubmit="event.preventDefault(); sendEstimate();" class="space-y-3.5">
               <div>
-                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Service Needed</label>
-                <select id="est-service" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2.5 text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none">
-                  <option value="NHBRC Certified Residential Building">NHBRC Certified Residential Building</option>
-                  <option value="Concrete Rib & Slabs">Concrete Rib & Slabs</option>
-                  <option value="Luxury Double-Storey Construction">Luxury Double-Storey Construction</option>
-                  <option value="Steel Fixing">Steel Fixing</option>
-                  <option value="Turnkey Project Management">Turnkey Project Management</option>
+                <label class="block text-[11px] font-bold text-slate-600 uppercase mb-1">Scope of Work</label>
+                <select id="est-service" class="w-full bg-[#F7F8FC] border border-rule rounded-lg px-3 py-2 text-xs font-semibold text-slate-800 focus:ring-2 focus:ring-[#222258] focus:outline-none">
+                  <option value="Luxury Double-Storey Residential Build">Turnkey Double-Storey Home</option>
+                  <option value="Reinforced Concrete & Rib Slabs">Concrete Rib & Block Slabs</option>
+                  <option value="Commercial Facility Construction">Commercial Facility Build</option>
+                  <option value="Foundation & Structural Steel Fixing">Foundation & Steel Fixing</option>
+                  <option value="Full Estate Renovation & Rebuild">Full Estate Renovation</option>
                 </select>
               </div>
 
               <div>
-                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Your Suburb / Estate</label>
-                <input id="est-suburb" type="text" placeholder="e.g. Midstream, Silver Lakes, Cornwall Hill..." class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2.5 text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none" required>
+                <label class="block text-[11px] font-bold text-slate-600 uppercase mb-1">Location / Gated Estate</label>
+                <input id="est-location" type="text" placeholder="e.g. Midstream, Silver Lakes, Centurion..." class="w-full bg-[#F7F8FC] border border-rule rounded-lg px-3 py-2 text-xs font-semibold text-slate-800 focus:ring-2 focus:ring-[#222258] focus:outline-none" required>
               </div>
 
               <div>
-                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Project Details</label>
-                <input id="est-details" type="text" placeholder="e.g. 40sqm floor, wall repair, full paint..." class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2.5 text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none">
+                <label class="block text-[11px] font-bold text-slate-600 uppercase mb-1">Project Details</label>
+                <textarea id="est-details" rows="2" placeholder="e.g. 450sqm double-storey, suspended slab specs, timeline..." class="w-full bg-[#F7F8FC] border border-rule rounded-lg px-3 py-2 text-xs font-semibold text-slate-800 focus:ring-2 focus:ring-[#222258] focus:outline-none"></textarea>
               </div>
 
-              <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 rounded-xl shadow-md transition text-sm">
-                Send Request via WhatsApp
+              <button type="submit" class="w-full bg-navy hover:bg-slate-900 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-lg shadow transition">
+                Send Project Inquiry &rarr;
               </button>
             </form>
           </div>
@@ -139,74 +203,249 @@
 
       </div>
     </div>
+
+    <!-- 4-COLUMN AUTHORITY STAT BAR (DOSS & HORKY SIGNATURE) -->
+    <div class="bg-[#171736] border-t border-slate-800 py-6 px-4">
+      <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="border-r border-slate-800 last:border-none">
+          <div class="text-2xl sm:text-3xl font-black text-amber-400">NHBRC</div>
+          <div class="text-[11px] text-slate-400 font-bold uppercase tracking-wider mt-1">Accredited Builder</div>
+        </div>
+        <div class="border-r border-slate-800 last:border-none">
+          <div class="text-2xl sm:text-3xl font-black text-white">K2020162157</div>
+          <div class="text-[11px] text-slate-400 font-bold uppercase tracking-wider mt-1">Registered Enterprise</div>
+        </div>
+        <div class="border-r border-slate-800 last:border-none">
+          <div class="text-2xl sm:text-3xl font-black text-white">100%</div>
+          <div class="text-[11px] text-slate-400 font-bold uppercase tracking-wider mt-1">On-Site Supervision</div>
+        </div>
+        <div>
+          <div class="text-2xl sm:text-3xl font-black text-amber-400">GAUTENG</div>
+          <div class="text-[11px] text-slate-400 font-bold uppercase tracking-wider mt-1">Centurion & Pretoria</div>
+        </div>
+      </div>
+    </div>
   </header>
 
-  <!-- SERVICES SECTION -->
-  <section class="py-20 bg-white">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+  <!-- 3 DELIVERY METHODS SECTION (ELEVATED CENTER COLUMN) -->
+  <section id="delivery" class="py-24 bg-[#1F1B52] text-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
       <div class="text-center max-w-2xl mx-auto mb-16">
-        <span class="text-amber-600 font-bold text-xs uppercase tracking-wider block mb-2">Our Work</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Services We Deliver</h2>
+        <div class="eyebrow text-amber-400 justify-center">DELIVERY METHODS</div>
+        <h2 class="text-3xl sm:text-4xl font-black text-white mt-2">Flexible Contracting Methods Built Around Your Project</h2>
+        <p class="text-slate-300 text-sm mt-3">Whether you require full turnkey architectural delivery or specialized structural concrete, we align with your contract structure.</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
         
-        <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-6 hover:shadow-lg transition">
-          <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-600 mb-5 font-black text-lg">
-            🏗️
+        <!-- Method 1: Design / Build -->
+        <div class="bg-[#171736] border border-slate-700/80 rounded-xl p-8 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-full border border-slate-600 flex items-center justify-center text-amber-400 mb-6 text-xl">
+              📐
+            </div>
+            <h3 class="text-xl font-bold text-white mb-3">Turnkey Design / Build</h3>
+            <p class="text-xs text-slate-300 leading-relaxed mb-6">
+              A single contract combining engineering, council plan submissions, foundation laying, structural brickwork, and interior completion. One point of accountability.
+            </p>
           </div>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">NHBRC Certified Residential Building</h3>
-          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">Turnkey home building in compliance with NHBRC standards for luxury residential developments.</p>
+          <ul class="text-xs text-slate-400 space-y-2 border-t border-slate-800 pt-4 font-semibold">
+            <li>✔ Single-source responsibility</li>
+            <li>✔ Streamlined council approvals</li>
+            <li>✔ Guaranteed completion timelines</li>
+          </ul>
         </div>
 
-        <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-6 hover:shadow-lg transition">
-          <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-600 mb-5 font-black text-lg">
-            🧱
+        <!-- Method 2: General Contracting (ELEVATED CENTER COLUMN) -->
+        <div class="bg-[#2D2966] border-2 border-amber-400/80 rounded-xl p-8 flex flex-col justify-between transform md:-translate-y-2 shadow-2xl relative">
+          <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-400 text-slate-950 font-black text-[10px] uppercase tracking-wider px-3 py-1 rounded-md">
+            Most Selected
+          </span>
+          <div>
+            <div class="w-14 h-14 rounded-full bg-amber-400 text-slate-950 flex items-center justify-center font-black mb-6 text-xl">
+              🔨
+            </div>
+            <h3 class="text-2xl font-black text-white mb-3">General Contracting</h3>
+            <p class="text-xs text-slate-200 leading-relaxed mb-6">
+              Bidding and execution based on client-supplied architectural drawings and engineer specifications. Full turnkey craftsmanship from foundation trenches to final roof structure.
+            </p>
           </div>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">Concrete Rib & Block Slabs</h3>
-          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">Engineered suspended slabs, rib-block systems, and structural concrete installations.</p>
+          <ul class="text-xs text-slate-200 space-y-2 border-t border-white/20 pt-4 font-semibold">
+            <li>✔ Fixed-price transparent tenders</li>
+            <li>✔ Full NHBRC compliance guarantee</li>
+            <li>✔ On-site supervisor on every shift</li>
+          </ul>
         </div>
 
-        <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-6 hover:shadow-lg transition">
-          <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-600 mb-5 font-black text-lg">
-            🏰
+        <!-- Method 3: Construction Management -->
+        <div class="bg-[#171736] border border-slate-700/80 rounded-xl p-8 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-full border border-slate-600 flex items-center justify-center text-amber-400 mb-6 text-xl">
+              📋
+            </div>
+            <h3 class="text-xl font-bold text-white mb-3">Construction Management</h3>
+            <p class="text-xs text-slate-300 leading-relaxed mb-6">
+              Open-book collaboration acting on behalf of property developers and estate homeowners, coordinating sub-trades, procurement, and quality verification.
+            </p>
           </div>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">Luxury Double-Storey Estates</h3>
-          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">High-end estate architectural construction tailored for Midstream, Silver Lakes & Pretoria East.</p>
+          <ul class="text-xs text-slate-400 space-y-2 border-t border-slate-800 pt-4 font-semibold">
+            <li>✔ Complete financial transparency</li>
+            <li>✔ Trade contractor scheduling</li>
+            <li>✔ Independent engineer liaison</li>
+          </ul>
         </div>
 
-        <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-6 hover:shadow-lg transition">
-          <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-600 mb-5 font-black text-lg">
-            ⚙️
-          </div>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">Steel Fixing & Foundations</h3>
-          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">Reinforced steel foundation engineering, columns, beams, and structural support.</p>
-        </div>
-
-        <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-6 hover:shadow-lg transition">
-          <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-600 mb-5 font-black text-lg">
-            📋
-          </div>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">Turnkey Project Management</h3>
-          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">End-to-end site management, contractor oversight, and quality control from foundation to roof.</p>
-        </div>
-        
       </div>
     </div>
   </section>
 
-  <!-- RECENT PROJECTS GALLERY -->
-  <section class="py-20 bg-slate-900 text-white border-t border-slate-800">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+  <!-- 6-CARD BENTO GRID: WHY RATOMBO (DOSS & HORKY STYLE) -->
+  <section id="why-us" class="py-24 bg-[#F7F8FC]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <div class="eyebrow text-slate-500">ONE TEAM. ONE STANDARD.</div>
+        <h2 class="text-3xl sm:text-4xl font-black text-navy mt-2">Why Gauteng Estates Trust Ratombo</h2>
+        <p class="text-slate-600 text-sm mt-3">We engineer durability into every concrete pour, brick joint, and suspended slab.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Card 1 -->
+        <div class="bg-white border border-rule rounded-xl p-7 card-lift flex flex-col justify-between">
+          <div>
+            <div class="icon-box mb-5">
+              <svg class="w-6 h-6 stroke-current fill-none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            </div>
+            <h3 class="text-lg font-bold text-navy mb-2">NHBRC Regulatory Compliance</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Every residential build is formally enrolled with the National Home Builders Registration Council, ensuring mandatory structural warranties and compliance.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white border border-rule rounded-xl p-7 card-lift flex flex-col justify-between">
+          <div>
+            <div class="icon-box mb-5">
+              <svg class="w-6 h-6 stroke-current fill-none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+            </div>
+            <h3 class="text-lg font-bold text-navy mb-2">Suspended Concrete & Rib Slabs</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Specialized engineering for multi-level homes. We erect reinforced rib-and-block systems, propping, and concrete placement with engineer certification.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white border border-rule rounded-xl p-7 card-lift flex flex-col justify-between">
+          <div>
+            <div class="icon-box mb-5">
+              <svg class="w-6 h-6 stroke-current fill-none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+            </div>
+            <h3 class="text-lg font-bold text-navy mb-2">Direct Owner Supervision</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Founded and operated by Murendeni Ratombo. You do not deal with call centers or detached project managers—the owner oversees your job site daily.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-white border border-rule rounded-xl p-7 card-lift flex flex-col justify-between">
+          <div>
+            <div class="icon-box mb-5">
+              <svg class="w-6 h-6 stroke-current fill-none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h3 class="text-lg font-bold text-navy mb-2">Transparent Stage Invoicing</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              We bill according to verified structural milestones (Foundation, Wallplate, Slab, Roof, Finishes). You only pay as tangible work is completed and approved.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="bg-white border border-rule rounded-xl p-7 card-lift flex flex-col justify-between">
+          <div>
+            <div class="icon-box mb-5">
+              <svg class="w-6 h-6 stroke-current fill-none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            </div>
+            <h3 class="text-lg font-bold text-navy mb-2">Own Heavy Plant & Rigging</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Fully equipped with our own heavy-gauge scaffolding, concrete mixers, laser alignment instruments, and transport vehicles—minimizing rental delays.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="bg-white border border-rule rounded-xl p-7 card-lift flex flex-col justify-between">
+          <div>
+            <div class="icon-box mb-5">
+              <svg class="w-6 h-6 stroke-current fill-none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+            </div>
+            <h3 class="text-lg font-bold text-navy mb-2">Estate HOA Liaison</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Experienced working within strict architectural and security parameters of leading estates (Midstream, Silver Lakes, Cornwall Hill, Copperleaf).
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4-STEP PROCESS PROGRESSION -->
+  <section id="process" class="py-20 bg-white border-t border-rule">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-xl mx-auto mb-16">
+        <div class="eyebrow text-slate-500">EXECUTION METHODOLOGY</div>
+        <h2 class="text-3xl font-black text-navy mt-2">How We Build With Certainty</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 relative">
+        
+        <div class="bg-[#F7F8FC] border border-rule p-6 rounded-xl relative">
+          <span class="text-4xl font-black text-slate-200 block mb-3">01</span>
+          <h3 class="font-extrabold text-navy text-base mb-2">Understand Scope</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Detailed review of your architectural plans, engineer drawings, soil report, and estate guidelines.</p>
+        </div>
+
+        <div class="bg-[#F7F8FC] border border-rule p-6 rounded-xl relative">
+          <span class="text-4xl font-black text-slate-200 block mb-3">02</span>
+          <h3 class="font-extrabold text-navy text-base mb-2">Engineer & Plan</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Clear bill of quantities, structural milestones, concrete testing protocol, and fixed timeline.</p>
+        </div>
+
+        <div class="bg-[#F7F8FC] border border-rule p-6 rounded-xl relative">
+          <span class="text-4xl font-black text-slate-200 block mb-3">03</span>
+          <h3 class="font-extrabold text-navy text-base mb-2">Supervised Build</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Full hands-on site management, steel fixing, concrete placement, and NHBRC phase sign-offs.</p>
+        </div>
+
+        <div class="bg-[#F7F8FC] border border-rule p-6 rounded-xl relative">
+          <span class="text-4xl font-black text-slate-200 block mb-3">04</span>
+          <h3 class="font-extrabold text-navy text-base mb-2">Certify & Handover</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Engineer completion sign-off, municipal occupancy certificate support, and clean site handover.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS GALLERY (PHOTO MOSAIC) -->
+  <section id="projects" class="py-24 bg-navy-deep text-white border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
         <div>
-          <span class="text-amber-400 font-bold text-xs uppercase tracking-wider block mb-2">On-Site Portfolio</span>
-          <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Recent Structural & Estate Projects</h2>
-          <p class="text-slate-400 text-sm mt-2 max-w-xl">Every project is NHBRC-compliant and personally managed on site from foundation trenching to final handover.</p>
+          <div class="eyebrow text-amber-400">OUR BUILDS</div>
+          <h2 class="text-3xl sm:text-5xl font-black text-white mt-2 tracking-tight">Recent Structural Projects</h2>
+          <p class="text-slate-400 text-sm mt-3 max-w-xl">A selection of active and completed luxury residential builds and suspended slabs in Gauteng.</p>
         </div>
         <div class="mt-4 md:mt-0">
-          <a href="https://wa.me/27762845600?text=Hi%20Murendeni,%20I'd%20like%20to%20see%20more%20photos%20of%20your%20recent%20builds." target="_blank" class="inline-flex items-center gap-2 text-xs font-bold bg-slate-800 hover:bg-slate-700 text-amber-400 px-4 py-2.5 rounded-xl border border-slate-700 transition">
-            Request Full Project Album on WhatsApp &rarr;
+          <a href="https://wa.me/27762845600?text=Hi%20Murendeni,%20I'd%20like%20to%20see%20more%20project%20photos%20of%20your%20builds." target="_blank" class="inline-flex items-center gap-2 border border-slate-700 hover:bg-slate-800 text-amber-400 font-bold text-xs uppercase tracking-wider px-5 py-3 rounded-lg transition">
+            REQUEST COMPLETE PORTFOLIO ON WHATSAPP &rarr;
           </a>
         </div>
       </div>
@@ -214,54 +453,58 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         
         <!-- Project 1 -->
-        <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700/80 group hover:border-amber-500/50 transition">
-          <div class="relative overflow-hidden h-52">
-            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Turnkey Luxury Residence" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-            <span class="absolute top-3 left-3 bg-slate-950/80 backdrop-blur-md text-amber-400 font-bold text-[10px] px-2.5 py-1 rounded-md uppercase">Turnkey Build</span>
+        <div class="bg-navy rounded-xl overflow-hidden border border-slate-700/80 group">
+          <div class="relative overflow-hidden h-60">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Midstream Estate Residence" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 bg-navy-deep/90 text-amber-400 text-[10px] font-black uppercase px-2.5 py-1 rounded">Turnkey Build</span>
           </div>
-          <div class="p-5">
-            <h3 class="font-bold text-white text-base mb-1">Luxury Estate Residence</h3>
-            <p class="text-xs text-slate-400 mb-3">Double-storey modern home with concrete slabs & architectural masonry.</p>
-            <span class="text-[11px] text-amber-400 font-semibold block">📍 Midstream Estate, Centurion</span>
+          <div class="p-6">
+            <div class="text-[11px] font-bold text-amber-400 uppercase mb-1">Midstream Estate, Centurion</div>
+            <h3 class="text-lg font-bold text-white mb-2">Luxury Double-Storey Villa</h3>
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">Complete structural execution, rib-slab second floor, and modern architectural finishing.</p>
+            <div class="text-[10px] text-slate-400 border-t border-slate-800 pt-3">Specs: 520sqm • 2-Storey • Turnkey</div>
           </div>
         </div>
 
         <!-- Project 2 -->
-        <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700/80 group hover:border-amber-500/50 transition">
-          <div class="relative overflow-hidden h-52">
-            <img src="https://images.unsplash.com/photo-1541888946425-d0fbb18615f8?auto=format&fit=crop&w=800&q=80" alt="Rib Slabs & Concrete" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-            <span class="absolute top-3 left-3 bg-slate-950/80 backdrop-blur-md text-amber-400 font-bold text-[10px] px-2.5 py-1 rounded-md uppercase">Structural Slabs</span>
+        <div class="bg-navy rounded-xl overflow-hidden border border-slate-700/80 group">
+          <div class="relative overflow-hidden h-60">
+            <img src="https://images.unsplash.com/photo-1541888946425-d0fbb18615f8?auto=format&fit=crop&w=800&q=80" alt="Concrete Suspended Slab" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 bg-navy-deep/90 text-amber-400 text-[10px] font-black uppercase px-2.5 py-1 rounded">Suspended Slab</span>
           </div>
-          <div class="p-5">
-            <h3 class="font-bold text-white text-base mb-1">Rib & Block Suspended Slab</h3>
-            <p class="text-xs text-slate-400 mb-3">Precision-cast reinforced concrete second-floor suspended slab.</p>
-            <span class="text-[11px] text-amber-400 font-semibold block">📍 Silver Lakes, Pretoria East</span>
+          <div class="p-6">
+            <div class="text-[11px] font-bold text-amber-400 uppercase mb-1">Silver Lakes, Pretoria East</div>
+            <h3 class="text-lg font-bold text-white mb-2">Engineered Rib & Block Slab</h3>
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">Reinforced concrete placement, column anchoring, and structural slab inspection.</p>
+            <div class="text-[10px] text-slate-400 border-t border-slate-800 pt-3">Specs: 30MPa Concrete • Rebar Rigging</div>
           </div>
         </div>
 
         <!-- Project 3 -->
-        <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700/80 group hover:border-amber-500/50 transition">
-          <div class="relative overflow-hidden h-52">
-            <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80" alt="Double-Storey Brickwork" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-            <span class="absolute top-3 left-3 bg-slate-950/80 backdrop-blur-md text-amber-400 font-bold text-[10px] px-2.5 py-1 rounded-md uppercase">Bricklaying</span>
+        <div class="bg-navy rounded-xl overflow-hidden border border-slate-700/80 group">
+          <div class="relative overflow-hidden h-60">
+            <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80" alt="Centurion Golf Estate Masonry" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 bg-navy-deep/90 text-amber-400 text-[10px] font-black uppercase px-2.5 py-1 rounded">Masonry</span>
           </div>
-          <div class="p-5">
-            <h3 class="font-bold text-white text-base mb-1">Double-Storey Masonry</h3>
-            <p class="text-xs text-slate-400 mb-3">Multi-level structural bricklaying and scaffolding layout.</p>
-            <span class="text-[11px] text-amber-400 font-semibold block">📍 Centurion Golf Estate</span>
+          <div class="p-6">
+            <div class="text-[11px] font-bold text-amber-400 uppercase mb-1">Centurion Golf Estate</div>
+            <h3 class="text-lg font-bold text-white mb-2">Multi-Level Bricklaying</h3>
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">Load-bearing structural bricklaying, scaffolding layout, and precision window lintels.</p>
+            <div class="text-[10px] text-slate-400 border-t border-slate-800 pt-3">Specs: Face-brick Accents • Lintels</div>
           </div>
         </div>
 
         <!-- Project 4 -->
-        <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700/80 group hover:border-amber-500/50 transition">
-          <div class="relative overflow-hidden h-52">
-            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" alt="Steel Fixing & Engineering" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-            <span class="absolute top-3 left-3 bg-slate-950/80 backdrop-blur-md text-amber-400 font-bold text-[10px] px-2.5 py-1 rounded-md uppercase">Steel & Footings</span>
+        <div class="bg-navy rounded-xl overflow-hidden border border-slate-700/80 group">
+          <div class="relative overflow-hidden h-60">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" alt="Steel Fixing & Footings" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 bg-navy-deep/90 text-amber-400 text-[10px] font-black uppercase px-2.5 py-1 rounded">Steel Fixing</span>
           </div>
-          <div class="p-5">
-            <h3 class="font-bold text-white text-base mb-1">Steel Fixing & Foundations</h3>
-            <p class="text-xs text-slate-400 mb-3">Heavy-gauge rebar placement, beam reinforcement and engineer inspection.</p>
-            <span class="text-[11px] text-amber-400 font-semibold block">📍 Pretoria East Residential</span>
+          <div class="p-6">
+            <div class="text-[11px] font-bold text-amber-400 uppercase mb-1">Pretoria East Residential</div>
+            <h3 class="text-lg font-bold text-white mb-2">Foundation Engineering</h3>
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">Engineered foundation trenches, rebar cage tying, and sub-surface footings.</p>
+            <div class="text-[10px] text-slate-400 border-t border-slate-800 pt-3">Specs: Engineer Certified • NHBRC</div>
           </div>
         </div>
 
@@ -269,31 +512,61 @@
     </div>
   </section>
 
+  <!-- FINAL CTA BAND (DOSS & HORKY STYLE) -->
+  <section class="py-20 bg-navy text-white text-center border-t border-slate-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 space-y-6">
+      <div class="eyebrow text-amber-400 justify-center">GET STARTED</div>
+      <h2 class="text-3xl sm:text-5xl font-black tracking-tight text-white">Ready to Build With Certainty?</h2>
+      <p class="text-slate-300 text-sm sm:text-base max-w-xl mx-auto">
+        Speak directly with Murendeni Ratombo regarding your upcoming residential estate build or commercial contract.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center pt-2">
+        <a href="https://wa.me/27762845600?text=Hi%20Murendeni,%20I'm%20ready%20to%20discuss%20my%20building%20plans." target="_blank" class="bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-sm uppercase tracking-wider px-8 py-4 rounded-lg shadow-lg transition flex items-center justify-center gap-2">
+          <span>CONNECT ON WHATSAPP: 076 284 5600</span>
+          <span>&rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <!-- FOOTER -->
-  <footer class="bg-slate-900 border-t border-slate-800 text-slate-400 py-8 text-xs text-center">
-    <div class="max-w-6xl mx-auto px-4 space-y-2">
-      <div class="font-bold text-white tracking-wide">Ratombo Construction</div>
-      <div>Based in Centurion & Pretoria | Serving Gauteng</div>
-      <div class="text-slate-500 pt-2">© <span id="year"></span> Ratombo Construction. All rights reserved.</div>
+  <footer class="bg-navy-deep text-slate-400 py-12 text-xs border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <div class="font-black text-white text-base mb-2">RATOMBO CONSTRUCTION (PTY) LTD</div>
+        <p class="text-slate-400 leading-relaxed">CIPC Enterprise: K2020162157 • NHBRC Registered Home Builder.</p>
+      </div>
+      <div>
+        <div class="font-bold text-white mb-2 uppercase tracking-wider">Service Hub</div>
+        <p class="text-slate-400 leading-relaxed">Centurion, Pretoria East, Midrand & Surrounding Gauteng Residential Estates.</p>
+      </div>
+      <div>
+        <div class="font-bold text-white mb-2 uppercase tracking-wider">Direct Contact</div>
+        <p class="text-slate-400 leading-relaxed">Call / WhatsApp: 076 284 5600<br>Alt: 065 973 7018<br>Email: Ratombo95@gmail.com</p>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-8 mt-8 border-t border-slate-800 text-slate-500 text-center">
+      © <span id="year"></span> Ratombo Construction (Pty) Ltd. All rights reserved.
     </div>
   </footer>
 
-  <!-- FLOATING WHATSAPP BUTTON -->
-  <aside aria-label="WhatsApp quick contact" class="fixed bottom-5 right-5 z-50">
-    <a href="https://wa.me/27762845600?text=Hi%20Murendeni,%20I'm%20looking%20for%20a%20quote." target="_blank" aria-label="Chat on WhatsApp" class="flex items-center gap-2 bg-emerald-500 text-white p-3.5 sm:px-5 sm:py-3.5 rounded-full shadow-2xl pulse-ring hover:bg-emerald-600 transition">
-      <span class="font-bold text-sm">💬 WhatsApp for Quote</span>
+  <!-- PERSISTENT FLOATING BOTTOM-RIGHT CTA (DOSS & HORKY STYLE) -->
+  <aside aria-label="Persistent quick contact" class="fixed bottom-6 right-6 z-50">
+    <a href="https://wa.me/27762845600?text=Hi%20Murendeni,%20I'd%20like%20to%20discuss%20a%20construction%20project." target="_blank" aria-label="Discuss a project on WhatsApp" class="bg-navy hover:bg-slate-900 text-white font-extrabold text-xs uppercase tracking-wider px-5 py-3.5 rounded-full shadow-2xl border-2 border-amber-400 transition flex items-center gap-2 transform hover:scale-105">
+      <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+      <span>DISCUSS A PROJECT &rarr;</span>
     </a>
   </aside>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    function sendWhatsApp() {
+    function sendEstimate() {
       const service = document.getElementById('est-service').value;
-      const suburb = document.getElementById('est-suburb').value;
+      const location = document.getElementById('est-location').value;
       const details = document.getElementById('est-details').value;
       
-      let msg = `Hi Murendeni, I saw your Ratombo Construction website.\n\nI'd like a quote for:\n- Service: ${service}\n- Suburb: ${suburb}`;
+      let msg = `Hi Murendeni, I saw your Ratombo Construction website.\n\nI'd like to discuss a project:\n- Scope: ${service}\n- Location: ${location}`;
       if (details) {
         msg += `\n- Details: ${details}`;
       }
