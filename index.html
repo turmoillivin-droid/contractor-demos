@@ -3,103 +3,252 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contractor Demos Portal | South Africa</title>
+  <title>Contractor Showcase Hub | Verified South African Demos</title>
+  <meta name="description" content="Explore live mobile-optimized contractor websites with interactive WhatsApp quote calculators across Gauteng, Eastern Cape, and KwaZulu-Natal.">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <style>body { font-family: 'Plus Jakarta Sans', sans-serif; }</style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .hero-glow {
+      background: radial-gradient(circle at 50% 20%, rgba(245, 158, 11, 0.12) 0%, transparent 60%);
+    }
+  </style>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen antialiased">
-  <div class="max-w-5xl mx-auto px-4 py-16 sm:py-20">
-    <div class="text-center max-w-2xl mx-auto mb-14">
-      <div class="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 text-amber-400 px-3.5 py-1.5 rounded-full text-xs font-semibold mb-4">
-        ⚡ 7 Live Contractor Demos
+<body class="bg-slate-950 text-slate-100 min-h-screen antialiased hero-glow">
+
+  <!-- TOP STATUS BAR -->
+  <header class="border-b border-slate-800/80 bg-slate-900/60 backdrop-blur-md sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-amber-500 text-slate-950 font-black flex items-center justify-center text-lg shadow-md">
+          ⚡
+        </div>
+        <div>
+          <span class="text-sm sm:text-base font-extrabold text-white tracking-tight">Contractor Engine</span>
+          <span class="text-[10px] text-amber-400 font-semibold uppercase tracking-wider block">Showcase Hub</span>
+        </div>
       </div>
-      <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-white mb-4">
-        Contractor Showcase <span class="text-amber-400">Hub</span>
+      
+      <div class="flex items-center gap-2 sm:gap-3">
+        <a href="https://github.com/turmoillivin-droid/contractor-demos" target="_blank" class="text-xs font-bold text-slate-300 hover:text-white px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800/80 transition flex items-center gap-1.5">
+          <span>GitHub Repo</span>
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+    <div class="text-center max-w-3xl mx-auto mb-14">
+      <div class="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 text-amber-400 px-3.5 py-1.5 rounded-full text-xs font-semibold mb-4">
+        <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+        7 Active High-Converting Demos Live
+      </div>
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white mb-5 leading-tight">
+        Contractor Showcase <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-300 to-amber-200">Portal</span>
       </h1>
-      <p class="text-slate-400 text-sm sm:text-base">
-        Mobile-first landing pages with WhatsApp quote calculators built for verified South African contractors and tradespeople.
+      <p class="text-slate-400 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
+        Turnkey 1-page mobile websites equipped with on-site project galleries, instant WhatsApp quote calculators, and local estate trust badges for top South African contractors.
       </p>
+
+      <!-- STATS BAR -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8 pt-6 border-t border-slate-800 max-w-3xl mx-auto text-left sm:text-center">
+        <div class="bg-slate-900/60 border border-slate-800 rounded-xl p-3 sm:p-4">
+          <div class="text-xl sm:text-2xl font-black text-white">7 Demos</div>
+          <div class="text-[11px] text-slate-400 font-medium">Ready to Deploy</div>
+        </div>
+        <div class="bg-slate-900/60 border border-slate-800 rounded-xl p-3 sm:p-4">
+          <div class="text-xl sm:text-2xl font-black text-amber-400">3 Provinces</div>
+          <div class="text-[11px] text-slate-400 font-medium">Gauteng, EC, KZN</div>
+        </div>
+        <div class="bg-slate-900/60 border border-slate-800 rounded-xl p-3 sm:p-4">
+          <div class="text-xl sm:text-2xl font-black text-emerald-400">1.2M+ Reach</div>
+          <div class="text-[11px] text-slate-400 font-medium">Trade Facebook Network</div>
+        </div>
+        <div class="bg-slate-900/60 border border-slate-800 rounded-xl p-3 sm:p-4">
+          <div class="text-xl sm:text-2xl font-black text-sky-400">1-Tap Quote</div>
+          <div class="text-[11px] text-slate-400 font-medium">WhatsApp Integrated</div>
+        </div>
+      </div>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- 1. Ratombo -->
-      <a href="demo-ratombo-construction/" class="block bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/50 hover:bg-slate-850 transition group shadow-lg">
-        <div class="flex items-center justify-between mb-4">
-          <span class="bg-amber-500/10 text-amber-400 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">NHBRC Certified</span>
-          <span class="text-xs text-slate-500">Centurion, GP</span>
-        </div>
-        <h2 class="text-lg font-bold text-white group-hover:text-amber-400 transition mb-1">Ratombo Construction</h2>
-        <p class="text-xs text-slate-400 mb-4">Turnkey Luxury Building, Rib Slabs & Concrete</p>
-        <span class="inline-flex items-center text-xs font-bold text-amber-400 gap-1 group-hover:translate-x-1 transition">View Demo &rarr;</span>
-      </a>
+    <!-- DEMO SITES GRID -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
 
-      <!-- 2. Raboshabane -->
-      <a href="demo-raboshabane-construction/" class="block bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/50 hover:bg-slate-850 transition group shadow-lg">
-        <div class="flex items-center justify-between mb-4">
-          <span class="bg-amber-500/10 text-amber-400 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">Luxury Estates</span>
-          <span class="text-xs text-slate-500">Johannesburg, GP</span>
+      <!-- 1. Ratombo Construction -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-amber-500/60 hover:bg-slate-850 transition duration-300 group shadow-xl flex flex-col">
+        <div class="relative h-48 overflow-hidden bg-slate-800">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Ratombo Construction Project" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <span class="absolute top-3 left-3 bg-slate-950/90 backdrop-blur-md text-amber-400 font-black text-[10px] px-2.5 py-1 rounded-md uppercase border border-amber-500/30">NHBRC Certified</span>
+          <span class="absolute top-3 right-3 bg-slate-950/80 backdrop-blur-md text-slate-300 font-bold text-[10px] px-2 py-0.5 rounded-md">Centurion, GP</span>
         </div>
-        <h2 class="text-lg font-bold text-white group-hover:text-amber-400 transition mb-1">Raboshabane Trading</h2>
-        <p class="text-xs text-slate-400 mb-4">Double-Storey Masonry & Estate Construction</p>
-        <span class="inline-flex items-center text-xs font-bold text-amber-400 gap-1 group-hover:translate-x-1 transition">View Demo &rarr;</span>
-      </a>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-[11px] text-slate-400 font-semibold uppercase mb-1">Murendeni Ratombo</div>
+            <h2 class="text-xl font-extrabold text-white group-hover:text-amber-400 transition mb-2">Ratombo Construction</h2>
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">Luxury double-storey estate construction, suspended concrete rib-and-block slabs, and full turnkey project management.</p>
+          </div>
+          <div class="pt-4 border-t border-slate-800 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-medium">📞 076 284 5600</span>
+            <a href="demo-ratombo-construction/" class="inline-flex items-center gap-1.5 bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-extrabold px-3.5 py-2 rounded-lg transition shadow-md">
+              <span>View Site</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
 
-      <!-- 3. Molise -->
-      <a href="demo-molise-construction/" class="block bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/50 hover:bg-slate-850 transition group shadow-lg">
-        <div class="flex items-center justify-between mb-4">
-          <span class="bg-emerald-500/10 text-emerald-400 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">Tiling & Building</span>
-          <span class="text-xs text-slate-500">Centurion, GP</span>
+      <!-- 2. Raboshabane Trading -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-amber-500/60 hover:bg-slate-850 transition duration-300 group shadow-xl flex flex-col">
+        <div class="relative h-48 overflow-hidden bg-slate-800">
+          <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" alt="Raboshabane Trading Drone Shot" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <span class="absolute top-3 left-3 bg-slate-950/90 backdrop-blur-md text-amber-400 font-black text-[10px] px-2.5 py-1 rounded-md uppercase border border-amber-500/30">Drone Photography</span>
+          <span class="absolute top-3 right-3 bg-slate-950/80 backdrop-blur-md text-slate-300 font-bold text-[10px] px-2 py-0.5 rounded-md">Johannesburg, GP</span>
         </div>
-        <h2 class="text-lg font-bold text-white group-hover:text-amber-400 transition mb-1">Molise Construction</h2>
-        <p class="text-xs text-slate-400 mb-4">Ceramic Tiling, House Building & Plastering</p>
-        <span class="inline-flex items-center text-xs font-bold text-amber-400 gap-1 group-hover:translate-x-1 transition">View Demo &rarr;</span>
-      </a>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-[11px] text-slate-400 font-semibold uppercase mb-1">Lethabo Rapanyane</div>
+            <h2 class="text-xl font-extrabold text-white group-hover:text-amber-400 transition mb-2">Raboshabane Trading</h2>
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">Double-storey luxury estate construction, second-floor suspended slabs, and structural perimeter boundary walls.</p>
+          </div>
+          <div class="pt-4 border-t border-slate-800 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-medium">📞 078 948 1786</span>
+            <a href="demo-raboshabane-construction/" class="inline-flex items-center gap-1.5 bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-extrabold px-3.5 py-2 rounded-lg transition shadow-md">
+              <span>View Site</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
 
-      <!-- 4. BC Gutters -->
-      <a href="demo-bc-gutters/" class="block bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/50 hover:bg-slate-850 transition group shadow-lg">
-        <div class="flex items-center justify-between mb-4">
-          <span class="bg-sky-500/10 text-sky-400 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">Gutters & Steel</span>
-          <span class="text-xs text-slate-500">East Rand, GP</span>
+      <!-- 3. Molise Construction -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-amber-500/60 hover:bg-slate-850 transition duration-300 group shadow-xl flex flex-col">
+        <div class="relative h-48 overflow-hidden bg-slate-800">
+          <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=80" alt="Molise Construction Tiling" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <span class="absolute top-3 left-3 bg-slate-950/90 backdrop-blur-md text-emerald-400 font-black text-[10px] px-2.5 py-1 rounded-md uppercase border border-emerald-500/30">Tiling & Building</span>
+          <span class="absolute top-3 right-3 bg-slate-950/80 backdrop-blur-md text-slate-300 font-bold text-[10px] px-2 py-0.5 rounded-md">Centurion, GP</span>
         </div>
-        <h2 class="text-lg font-bold text-white group-hover:text-amber-400 transition mb-1">B.C Gutters & Steel</h2>
-        <p class="text-xs text-slate-400 mb-4">Seamless Stainless Gutters & Steel Carports</p>
-        <span class="inline-flex items-center text-xs font-bold text-amber-400 gap-1 group-hover:translate-x-1 transition">View Demo &rarr;</span>
-      </a>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-[11px] text-slate-400 font-semibold uppercase mb-1">Maiketso Maiketso</div>
+            <h2 class="text-xl font-extrabold text-white group-hover:text-amber-400 transition mb-2">Molise Construction</h2>
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">Precision ceramic and porcelain floor tiling, bathroom waterproofing, brickwork, and smooth crack-free plastering.</p>
+          </div>
+          <div class="pt-4 border-t border-slate-800 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-medium">📞 063 255 0626</span>
+            <a href="demo-molise-construction/" class="inline-flex items-center gap-1.5 bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-extrabold px-3.5 py-2 rounded-lg transition shadow-md">
+              <span>View Site</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. BC Gutters & Steel -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-amber-500/60 hover:bg-slate-850 transition duration-300 group shadow-xl flex flex-col">
+        <div class="relative h-48 overflow-hidden bg-slate-800">
+          <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80" alt="BC Gutters Installation" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <span class="absolute top-3 left-3 bg-slate-950/90 backdrop-blur-md text-sky-400 font-black text-[10px] px-2.5 py-1 rounded-md uppercase border border-sky-500/30">Seamless Gutters</span>
+          <span class="absolute top-3 right-3 bg-slate-950/80 backdrop-blur-md text-slate-300 font-bold text-[10px] px-2 py-0.5 rounded-md">East Rand, GP</span>
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-[11px] text-slate-400 font-semibold uppercase mb-1">Bigboy Chinhema</div>
+            <h2 class="text-xl font-extrabold text-white group-hover:text-amber-400 transition mb-2">B.C Gutters & Steel</h2>
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">Seamless stainless steel gutters (no rust, no leaks), heavy-duty IBR carports, roof waterproofing, and sliding steel gates.</p>
+          </div>
+          <div class="pt-4 border-t border-slate-800 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-medium">📞 065 624 7288</span>
+            <a href="demo-bc-gutters/" class="inline-flex items-center gap-1.5 bg-sky-500 hover:bg-sky-400 text-slate-950 text-xs font-extrabold px-3.5 py-2 rounded-lg transition shadow-md">
+              <span>View Site</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
 
       <!-- 5. M&M Projects -->
-      <a href="demo-mm-projects/" class="block bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/50 hover:bg-slate-850 transition group shadow-lg">
-        <div class="flex items-center justify-between mb-4">
-          <span class="bg-purple-500/10 text-purple-400 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">Building & Plumbing</span>
-          <span class="text-xs text-slate-500">Pretoria, GP</span>
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-amber-500/60 hover:bg-slate-850 transition duration-300 group shadow-xl flex flex-col">
+        <div class="relative h-48 overflow-hidden bg-slate-800">
+          <img src="https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?auto=format&fit=crop&w=800&q=80" alt="M&M Projects Roof Trusses" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <span class="absolute top-3 left-3 bg-slate-950/90 backdrop-blur-md text-purple-400 font-black text-[10px] px-2.5 py-1 rounded-md uppercase border border-purple-500/30">Build & Plumbing</span>
+          <span class="absolute top-3 right-3 bg-slate-950/80 backdrop-blur-md text-slate-300 font-bold text-[10px] px-2 py-0.5 rounded-md">Pretoria, GP</span>
         </div>
-        <h2 class="text-lg font-bold text-white group-hover:text-amber-400 transition mb-1">M&M Projects</h2>
-        <p class="text-xs text-slate-400 mb-4">Double-Storey Masonry, Trusses & Plumbing</p>
-        <span class="inline-flex items-center text-xs font-bold text-amber-400 gap-1 group-hover:translate-x-1 transition">View Demo &rarr;</span>
-      </a>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-[11px] text-slate-400 font-semibold uppercase mb-1">M&M Developments</div>
+            <h2 class="text-xl font-extrabold text-white group-hover:text-amber-400 transition mb-2">M&M Projects</h2>
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">Double-storey face-brick residential construction, timber roof trusses, patio pool surrounds, and commercial plumbing.</p>
+          </div>
+          <div class="pt-4 border-t border-slate-800 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-medium">📞 064 845 4885</span>
+            <a href="demo-mm-projects/" class="inline-flex items-center gap-1.5 bg-purple-500 hover:bg-purple-400 text-white text-xs font-extrabold px-3.5 py-2 rounded-lg transition shadow-md">
+              <span>View Site</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
 
-      <!-- 6. Brian Simanyandi -->
-      <a href="demo-brian-tiling/" class="block bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/50 hover:bg-slate-850 transition group shadow-lg">
-        <div class="flex items-center justify-between mb-4">
-          <span class="bg-teal-500/10 text-teal-400 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">Porcelain Tiling</span>
-          <span class="text-xs text-slate-500">East London, EC</span>
+      <!-- 6. Brian Simanyandi Tiling -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-amber-500/60 hover:bg-slate-850 transition duration-300 group shadow-xl flex flex-col">
+        <div class="relative h-48 overflow-hidden bg-slate-800">
+          <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80" alt="Brian Simanyandi Bathroom Tiling" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <span class="absolute top-3 left-3 bg-slate-950/90 backdrop-blur-md text-teal-400 font-black text-[10px] px-2.5 py-1 rounded-md uppercase border border-teal-500/30">Porcelain Tiling</span>
+          <span class="absolute top-3 right-3 bg-slate-950/80 backdrop-blur-md text-slate-300 font-bold text-[10px] px-2 py-0.5 rounded-md">East London, EC</span>
         </div>
-        <h2 class="text-lg font-bold text-white group-hover:text-amber-400 transition mb-1">Brian Simanyandi Tiling</h2>
-        <p class="text-xs text-slate-400 mb-4">Large-Format Floor Tiling & Precision Skirting</p>
-        <span class="inline-flex items-center text-xs font-bold text-amber-400 gap-1 group-hover:translate-x-1 transition">View Demo &rarr;</span>
-      </a>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-[11px] text-slate-400 font-semibold uppercase mb-1">Brian Simanyandi</div>
+            <h2 class="text-xl font-extrabold text-white group-hover:text-amber-400 transition mb-2">Simanyandi Tiling</h2>
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">Polished marble-look porcelain floor tiling, bathroom floor-to-ceiling tiling, and precision skirting cuts.</p>
+          </div>
+          <div class="pt-4 border-t border-slate-800 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-medium">📞 069 422 5882</span>
+            <a href="demo-brian-tiling/" class="inline-flex items-center gap-1.5 bg-teal-500 hover:bg-teal-400 text-slate-950 text-xs font-extrabold px-3.5 py-2 rounded-lg transition shadow-md">
+              <span>View Site</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
 
       <!-- 7. Nozaphi Construction -->
-      <a href="demo-nozaphi-construction/" class="block bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/50 hover:bg-slate-850 transition group shadow-lg">
-        <div class="flex items-center justify-between mb-4">
-          <span class="bg-amber-500/10 text-amber-400 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">Plans & Building</span>
-          <span class="text-xs text-slate-500">Durban, KZN</span>
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-amber-500/60 hover:bg-slate-850 transition duration-300 group shadow-xl flex flex-col">
+        <div class="relative h-48 overflow-hidden bg-slate-800">
+          <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80" alt="Nozaphi Construction 3D Plans" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <span class="absolute top-3 left-3 bg-slate-950/90 backdrop-blur-md text-amber-400 font-black text-[10px] px-2.5 py-1 rounded-md uppercase border border-amber-500/30">3D House Plans</span>
+          <span class="absolute top-3 right-3 bg-slate-950/80 backdrop-blur-md text-slate-300 font-bold text-[10px] px-2 py-0.5 rounded-md">Durban, KZN</span>
         </div>
-        <h2 class="text-lg font-bold text-white group-hover:text-amber-400 transition mb-1">Nozaphi Construction</h2>
-        <p class="text-xs text-slate-400 mb-4">Turnkey Residential Building & 3D House Plans</p>
-        <span class="inline-flex items-center text-xs font-bold text-amber-400 gap-1 group-hover:translate-x-1 transition">View Demo &rarr;</span>
-      </a>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-[11px] text-slate-400 font-semibold uppercase mb-1">Mandla Sky Zulu</div>
+            <h2 class="text-xl font-extrabold text-white group-hover:text-amber-400 transition mb-2">Nozaphi Construction</h2>
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">Turnkey coastal residential house building, 3D architectural plan rendering, gypsum ceilings, and retaining walls.</p>
+          </div>
+          <div class="pt-4 border-t border-slate-800 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-medium">📞 084 049 0448</span>
+            <a href="demo-nozaphi-construction/" class="inline-flex items-center gap-1.5 bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-extrabold px-3.5 py-2 rounded-lg transition shadow-md">
+              <span>View Site</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-800 bg-slate-950 py-10 text-center text-xs text-slate-500">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="font-bold text-slate-400 mb-1">South Africa Contractor Lead Engine</div>
+      <p>Automated demo generation, Facebook group distribution, and mobile-first WhatsApp quoting tools.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
