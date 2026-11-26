@@ -119,3 +119,21 @@ Do not generate a demo if any of the following apply:
 - **85 – 100 Points:** **Tier 1 Priority Lead** (Build demo within 2 hours, instant high-probability close).
 - **70 – 84 Points:** **Tier 2 Qualified Lead** (Build standard demo, pitch within 24 hours).
 - **Below 70 Points:** **Disqualified** (Do not build demo; archive or skip).
+
+---
+
+## 🛠 Automated Execution Tooling
+
+Run the automated lead auditor to visually vet the contractor's project gallery and score their profile in one command:
+
+```bash
+# 1. Audit photo gallery heuristics (resolution, brightness, daytime quality)
+python3 .agents/skills/contractor-lead-engine/scripts/audit_gallery_heuristics.py \
+  --dir demo-roofglow-capetown/images/
+
+# 2. Run the end-to-end integrated lead audit
+python3 .agents/skills/contractor-lead-engine/scripts/automated_lead_auditor.py \
+  --profile scratch/sample_profile_roofglow.json \
+  --images demo-roofglow-capetown/images/
+```
+
