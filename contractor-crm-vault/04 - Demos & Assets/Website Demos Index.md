@@ -7,15 +7,23 @@ tags: [demos, templates]
 
 Here is the index of all generated mobile contractor landing page previews and ready-to-deploy zip archives stored in your workspace:
 
-| Business Name | Owner | Trade | Local HTML Path | Live GitHub Pages Link |
-| :--- | :--- | :--- | :--- | :--- |
-| **Ratombo Construction** | Murendeni | NHBRC Luxury Home Building | `demo-ratombo-construction/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-ratombo-construction/) |
-| **M&M Projects & Developments** | Management | Double-Storey & Plumbing | `demo-mm-projects/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-mm-projects/) |
-| **Raboshabane Trading** | Lethabo | Luxury Double-Storey Estates | `demo-raboshabane-construction/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-raboshabane-construction/) |
-| **Molise Construction & Tiling** | Maiketso | Ceramic Tiling & Building | `demo-molise-construction/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-molise-construction/) |
-| **B.C Gutters & Steel Works** | Bigboy | Seamless Gutters & Steel | `demo-bc-gutters/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-bc-gutters/) |
-| **Brian Simanyandi Tiling** | Brian | Porcelain Floor Tiling | `demo-brian-tiling/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-brian-tiling/) |
-| **Nozaphi Construction** | Mandla | House Building & 3D Plans | `demo-nozaphi-construction/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-nozaphi-construction/) |
+| Business Name | Owner | Trade | Ready ZIP Package | Local HTML Path | Live GitHub Pages Link |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Ratombo Construction** | Murendeni | NHBRC Luxury Home Building | `ratombo-construction.zip` (517 KB) | `demo-ratombo-construction/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-ratombo-construction/) |
+| **M&M Projects & Developments** | Management | Double-Storey & Plumbing | `mm-projects.zip` (1.2 MB) | `demo-mm-projects/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-mm-projects/) |
+| **Raboshabane Trading** | Lethabo | Luxury Double-Storey Estates | `raboshabane-construction.zip` (728 KB) | `demo-raboshabane-construction/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-raboshabane-construction/) |
+| **Molise Construction & Tiling** | Maiketso | Ceramic Tiling & Building | `molise-construction.zip` (450 KB) | `demo-molise-construction/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-molise-construction/) |
+| **B.C Gutters & Steel Works** | Bigboy | Seamless Gutters & Steel | `bc-gutters.zip` (653 KB) | `demo-bc-gutters/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-bc-gutters/) |
+| **Brian Simanyandi Tiling** | Brian | Porcelain Floor Tiling | `simanyandi-tiling.zip` (381 KB) | `demo-brian-tiling/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-brian-tiling/) |
+| **Nozaphi Construction** | Mandla | House Building & 3D Plans | `nozaphi-construction.zip` (1.3 MB) | `demo-nozaphi-construction/index.html` | [Live Site](https://turmoillivin-droid.github.io/contractor-demos/demo-nozaphi-construction/) |
+
+---
+
+## 📸 Authentic Facebook Gallery Guarantee
+100% of generic placeholder stock photos (Unsplash) have been replaced across all 7 contractor websites. Every site now serves authentic high-resolution jobsite photos downloaded directly from each contractor's Facebook page/posts:
+- **Zero Token Expiry:** All photos are hosted locally inside `images/` within each website repository.
+- **Unique Proof of Craft:** Drone aerial views, concrete rib-and-block slabs, steel gates, rhinoboard ceilings, and laser-leveled porcelain floor tiling.
+- **Instant Deploy Packages:** All `.zip` archives at workspace root bundle both `index.html` and the full `images/` folder ready for drag-and-drop hosting on Tiiny.host, Surge, or Netlify.
 
 ---
 

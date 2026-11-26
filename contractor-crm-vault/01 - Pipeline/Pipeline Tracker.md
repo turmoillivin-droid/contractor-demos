@@ -7,6 +7,9 @@ tags: [pipeline, crm]
 
 Track every lead through the 5 stages: **Discovered ➔ Demo Built ➔ Pitched ➔ Negotiating ➔ Closed**.
 
+- **Central Showcase Hub:** [https://turmoillivin-droid.github.io/contractor-demos/](https://turmoillivin-droid.github.io/contractor-demos/)
+- **Demo Asset Catalog:** See [[Website Demos Index]] for ready `.zip` deployment archives and direct live demo links.
+
 ---
 
 ## 🎯 Active Leads Overview

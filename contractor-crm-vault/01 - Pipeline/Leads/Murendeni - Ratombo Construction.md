@@ -32,7 +32,16 @@ tags: [lead, gauteng, nhbrc, builder, high-ticket]
 
 ## 📁 Project Demo Asset
 - **Local Demo Path:** `demo-ratombo-construction/index.html`
-- **Live URL:** `https://turmoillivin-droid.github.io/contractor-demos/demo-ratombo-construction/`
+- **Ready Deployment Archive:** `ratombo-construction.zip` (517 KB, includes all local images)
+- **Live URL:** [https://turmoillivin-droid.github.io/contractor-demos/demo-ratombo-construction/](https://turmoillivin-droid.github.io/contractor-demos/demo-ratombo-construction/)
+- **Design Language:** Corporate Navy (`#222258`), Deep Navy (`#171736`), Refined Gold (`#FCB92C`), Doss & Horky inspired 4-column authority stats, and sticky WhatsApp consultation trigger.
+
+## 📸 Authentic Facebook Gallery Assets
+- `images/photo-1.jpg`: Deck formwork & steel shoring props (Silver Lakes suspended slab project)
+- `images/photo-2.jpg`: Precast rib beams and hollow block slab placement
+- `images/photo-3.jpg`: Scaffolding multi-level structural bricklaying (Hero & Portfolio Card 1)
+- `images/photo-4.jpg`: High-tensile steel mesh fabric (Ref 193) & conduit pre-pour inspection
+- `images/photo-5.jpg`: Workers installing hollow blocks on precast rib beams
 
 ## 💬 Tailored WhatsApp Pitch
 ```text
@@ -45,10 +54,11 @@ When quoting R1M+ builds for clients in estates around Centurion & Pretoria East
 I put together a quick 1-page mobile website preview for Ratombo Construction so clients take your quotes seriously:
 👉 https://turmoillivin-droid.github.io/contractor-demos/demo-ratombo-construction/
 
-It puts your NHBRC credentials, structural build portfolio, and instant WhatsApp quote button in one clean link.
+It puts your NHBRC credentials, structural build portfolio with your real rib-slab photos, and instant WhatsApp quote button in one clean link.
 
 Have a quick look—if you want to keep it live to help you close more high-ticket estate projects, let me know!
 ```
 
 ## 📝 Activity Log
 - **2026-11-24:** Found in *Pretoria Building Contractors* group. Demo generated.
+- **2026-11-26:** Extracted authentic Facebook project photos from page `61596117298316`. Replaced stock images with 5 verified jobsite photos. Packaged into `ratombo-construction.zip` and deployed live to GitHub Pages.

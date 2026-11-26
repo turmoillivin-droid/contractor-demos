@@ -30,8 +30,16 @@ tags: [lead, gauteng, luxury, builder, high-ticket]
 
 ## 📁 Project Demo Asset
 - **Local Demo Path:** `demo-raboshabane-construction/index.html`
-- **Live URL:** `https://turmoillivin-droid.github.io/contractor-demos/demo-raboshabane-construction/`
+- **Ready Deployment Archive:** `raboshabane-construction.zip` (728 KB, includes all local images)
+- **Live URL:** [https://turmoillivin-droid.github.io/contractor-demos/demo-raboshabane-construction/](https://turmoillivin-droid.github.io/contractor-demos/demo-raboshabane-construction/)
 - **Special Asset:** Client has **drone/aerial site photography** of active double-storey builds.
+
+## 📸 Authentic Facebook Gallery Assets
+- `images/photo-1.jpg`: Double-storey house construction — front/side drone view (`fbid=1483582747295017`)
+- `images/photo-2.jpg`: Double-storey house construction — side/rear elevation masonry (`fbid=1483582753961683`)
+- `images/photo-3.jpg`: Double-storey house construction — front-quarter aerial progress (`fbid=1483582760628349`)
+- `images/photo-4.jpg`: Wide estate site & double-storey build layout (`fbid=1483582750628350`)
+- `images/photo-5.jpg`: Top-down aerial roofline and perimeter site work (`fbid=1483582757295016`)
 
 ## 💬 Tailored WhatsApp Pitch
 ```text
@@ -44,7 +52,11 @@ When pitching R1M+ builds for clients in Gauteng estates, high-budget homeowners
 I put together a clean 1-page mobile website preview for Raboshabane Trading so clients take your quotes seriously:
 👉 https://turmoillivin-droid.github.io/contractor-demos/demo-raboshabane-construction/
 
-It highlights your double-storey builds, masonry expertise, and includes an instant "Quote on WhatsApp" button.
+It highlights your double-storey builds with your real drone photos, masonry expertise, and includes an instant "Quote on WhatsApp" button.
 
 Have a quick look—if you'd like to use it to close your upcoming estate builds, let me know!
 ```
+
+## 📝 Activity Log
+- **2026-11-24:** Discovered in *ABAKHI BEZINDLU* (542k members). Initial demo created.
+- **2026-11-26:** Extracted 5 high-res drone & elevation photos from Facebook post `3340911139453420`. Built local gallery, packaged into `raboshabane-construction.zip`, and deployed to GitHub Pages.

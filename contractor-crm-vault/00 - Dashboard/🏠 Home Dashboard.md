@@ -14,6 +14,7 @@ Welcome to your central operating workspace. This vault tracks all your contract
 | Section | Description | Link |
 | :--- | :--- | :--- |
 | **📊 Pipeline** | Track active prospects from discovery to paid | [[Pipeline Tracker]] |
+| **🌐 Demos & Hub** | 7 Live contractor demos with authentic Facebook galleries | [[Website Demos Index]] |
 | **🎯 Hunting Grounds** | 1.2M+ South African contractors & builders | [[Contractor Hunting Grounds (1.2M+)]] |
 | **📢 Distribution Hubs** | 24 Gauteng homeowner groups (1.5M+ reach) | [[Gauteng Homeowner Groups (1.5M+)]] |
 | **🇿🇦 National Rolodex** | 9-province directory (5.4M+ reach) | [[National 9-Province Directory (5.4M+)]] |
