@@ -23,6 +23,7 @@
     "@remotion/google-fonts": "4.0.522",
     "@remotion/layout-utils": "4.0.522",
     "@remotion/renderer": "4.0.522",
+    "@typesafe-ai/sdk": "^0.7.0",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "remotion": "4.0.522"
