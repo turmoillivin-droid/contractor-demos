@@ -47,6 +47,19 @@ SORT file.name ASC
 
 ---
 
+### Stage 0: High-Ticket Water Security Prospects (Discovered & Ready for Demos)
+*Source: [[Borehole & Backup Water Contractors (Gauteng)]]*
+- [ ] **Mike Boreholes & Irrigations** — Borehole Drilling & Irrigations (Midrand) • `081 746 7042`
+- [ ] **Marsboreholes & Water Tech** — Residential Borehole Drilling (Midrand / Kyalami) • `060 781 4558`
+- [ ] **Orbital Borehole Drilling** — Estate Borehole Drilling & Installation (Centurion) • `067 606 7828`
+- [ ] **IMF3 Borehole Drilling** — Sinking Boreholes & Clean-outs (Centurion) • `063 956 7960`
+- [ ] **K & N Willey Backup Water** — Municipal Backup Systems & JoJo Tanks (Pretoria East) • `063 655 1066`
+- [ ] **NESCO Borehole Drilling** — Rotary Drilling & Submersible Pumps (Midrand) • `072 411 5472`
+- [ ] **Triple T Borehole Drilling** — Borehole Drilling & Water Continuity (Centurion) • `063 082 5674`
+- [ ] **Droptech Borehole Services** — Submersible Pump Installation (Fourways / Midrand) • `060 348 8268`
+
+---
+
 ### Stage 2: Pitched on WhatsApp (Waiting for Reply)
 *(Move leads here once WhatsApp message is sent)*
 

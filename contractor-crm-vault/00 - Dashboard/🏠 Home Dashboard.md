@@ -24,6 +24,7 @@ Welcome to your central operating workspace. This vault tracks all your contract
 | **🛠️ Lean Optimizer Skill** | Official installed skill for slashing token usage by 95% | [[Skill - Lean Agent Optimizer]] |
 | **🔍 Deep Research Runner** | Global zero-token research protocol & BS4 distillation runner | [[Global Zero-Token Research Protocol & Deep Research Runner]] |
 | **🇿🇦 National Rolodex** | 9-province directory (5.4M+ reach) | [[National 9-Province Directory (5.4M+)]] |
+| **💧 Borehole & JoJo Rolodex** | 8 High-ticket water security leads (Centurion, Midrand, Pretoria East) | [[Borehole & Backup Water Contractors (Gauteng)]] |
 | **💬 Outreach Scripts** | Tested copy-paste WhatsApp pitches | [[WhatsApp Outreach Scripts]] |
 | **💰 Pricing & Menu** | A la carte & retainer package pricing | [[Pricing & Service Menu]] |
 | **🎬 Video Playbook** | TikTok, Reels & YouTube Shorts strategy | [[Multi-Platform Video Strategy]] |
